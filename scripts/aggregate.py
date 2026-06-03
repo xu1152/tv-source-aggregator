@@ -377,13 +377,13 @@ def generate_tvbox_json(m3u_rel, path):
         json.dump(config, f, ensure_ascii=False, indent=2)
 
 def generate_json(channels, path):
-    """TVBox 标准格式：spider + sites + lives[].channels[]"""
+    """TVBox 最兼容扁平格式：单 name + 单 url，多链路展开为多条同名记录"""
     channel_list = []
     for ch in channels:
-        channel_list.append({
-            "name": ch["name"],
-            "urls": ch.get("urls", []),
-        })
+        name = ch["name"]
+        urls = ch.get("urls", [])
+        for url in urls:
+            channel_list.append({"name": name, "url": url})
     data = {
         "spider": "",
         "sites": [],
