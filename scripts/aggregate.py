@@ -377,15 +377,25 @@ def generate_tvbox_json(m3u_rel, path):
         json.dump(config, f, ensure_ascii=False, indent=2)
 
 def generate_json(channels, path):
-    lives = []
+    """TVBox 标准格式：spider + sites + lives[].channels[]"""
+    channel_list = []
     for ch in channels:
-        lives.append({
+        channel_list.append({
             "name": ch["name"],
             "urls": ch.get("urls", []),
-            "group": SINGLE_GROUP,
         })
+    data = {
+        "spider": "",
+        "sites": [],
+        "lives": [
+            {
+                "group": SINGLE_GROUP,
+                "channels": channel_list,
+            }
+        ],
+    }
     with open(path, "w", encoding="utf-8") as f:
-        json.dump({"lives": lives}, f, ensure_ascii=False, indent=2)
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
 # ============================================================
 # 主流程

@@ -30,8 +30,6 @@ rtp://239.3.1.60:8084
 #EXTINF:-1 group-title="电视直播",CCTV-3
 http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 group-title="电视直播",CCTV-3
-http://36.40.236.27:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="电视直播",CCTV-3
 http://gslbserv.itv.cmvideo.cn/6000000001000022313/1.m3u8?channel-id=wasusyt&Contentid=6000000001000022313&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",CCTV-3
 http://gslbserv.itv.cmvideo.cn/1000000005000265003/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265003&livemode=1&stbId=3
@@ -41,6 +39,8 @@ http://36.40.236.201:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.43.247.40:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",CCTV-3
 http://182.114.50.47:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",CCTV-3
+http://36.40.236.27:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",CCTV-3
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226471/1.m3u8?
 #EXTINF:-1 group-title="电视直播",CCTV-3
@@ -244,9 +244,9 @@ http://gslbserv.itv.cmvideo.cn/6000000001000016510/1.m3u8?channel-id=wasusyt&Con
 #EXTINF:-1 group-title="电视直播",黑龙江卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265029/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265029&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",黑龙江卫视
-rtp://239.3.1.133:8016
-#EXTINF:-1 group-title="电视直播",黑龙江卫视
 http://36.40.236.201:9999/tsfile/live/0143_2.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="电视直播",黑龙江卫视
+rtp://239.3.1.133:8016
 #EXTINF:-1 group-title="电视直播",黑龙江都市
 http://111.40.205.87/live/ds.m3u8
 #EXTINF:-1 group-title="电视直播",黑龙江影视
@@ -264,13 +264,13 @@ http://gslbserv.itv.cmvideo.cn/6000000001000018044/1.m3u8?channel-id=wasusyt&Con
 #EXTINF:-1 group-title="电视直播",湖南卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265024/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265024&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",湖南卫视
-rtp://239.3.1.112:3002
-#EXTINF:-1 group-title="电视直播",湖南卫视
 http://36.40.236.201:9999/tsfile/live/0128_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="电视直播",湖南卫视
 http://125.43.247.40:9901/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",湖南卫视
 http://182.114.50.47:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",湖南卫视
+rtp://239.3.1.112:3002
 #EXTINF:-1 group-title="电视直播",浙江卫视
 http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8
 #EXTINF:-1 group-title="电视直播",浙江卫视
@@ -282,11 +282,11 @@ http://gslbserv.itv.cmvideo.cn/1000000001000014260/1.m3u8?channel-id=ystenlive&C
 #EXTINF:-1 group-title="电视直播",浙江卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265031/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265031&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",浙江卫视
-rtp://239.3.1.114:3004
-#EXTINF:-1 group-title="电视直播",浙江卫视
 http://125.43.247.40:9901/tsfile/live/1031_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",浙江卫视
 http://182.114.50.47:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",浙江卫视
+rtp://239.3.1.114:3004
 #EXTINF:-1 group-title="电视直播",江苏卫视
 http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8
 #EXTINF:-1 group-title="电视直播",江苏卫视
@@ -298,13 +298,13 @@ http://gslbserv.itv.cmvideo.cn/1000000001000001828/1.m3u8?channel-id=ystenlive&C
 #EXTINF:-1 group-title="电视直播",江苏卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265030/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265030&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",江苏卫视
-rtp://239.3.1.113:3003
-#EXTINF:-1 group-title="电视直播",江苏卫视
 http://36.40.236.201:9999/tsfile/live/0127_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="电视直播",江苏卫视
 http://125.43.247.40:9901/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",江苏卫视
 http://182.114.50.47:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",江苏卫视
+rtp://239.3.1.113:3003
 #EXTINF:-1 group-title="电视直播",东方卫视
 http://118.81.195.79:9003/hls/23/index.m3u8
 #EXTINF:-1 group-title="电视直播",东方卫视
@@ -316,9 +316,9 @@ http://gslbserv.itv.cmvideo.cn/5000000004000014098/1.m3u8?channel-id=bestzb&Cont
 #EXTINF:-1 group-title="电视直播",东方卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265018/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265018&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",东方卫视
-rtp://239.3.1.119:3006
-#EXTINF:-1 group-title="电视直播",东方卫视
 http://182.114.50.47:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",东方卫视
+rtp://239.3.1.119:3006
 #EXTINF:-1 group-title="电视直播",北京卫视
 http://go.bkpcp.top/mg/bjws
 #EXTINF:-1 group-title="电视直播",北京卫视
@@ -328,9 +328,9 @@ http://gslbserv.itv.cmvideo.cn/6000000001000020451/1.m3u8?channel-id=wasusyt&Con
 #EXTINF:-1 group-title="电视直播",北京卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265027/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265027&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",北京卫视
-rtp://239.3.1.22:8001
-#EXTINF:-1 group-title="电视直播",北京卫视
 http://125.43.247.40:9901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",北京卫视
+rtp://239.3.1.22:8001
 #EXTINF:-1 group-title="电视直播",安徽卫视
 http://118.81.195.79:9003/hls/21/index.m3u8
 #EXTINF:-1 group-title="电视直播",安徽卫视
@@ -342,11 +342,11 @@ http://gslbserv.itv.cmvideo.cn/6000000001000009954/1.m3u8?channel-id=wasusyt&Con
 #EXTINF:-1 group-title="电视直播",安徽卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265025/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265025&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",安徽卫视
-rtp://239.3.1.211:8064
-#EXTINF:-1 group-title="电视直播",安徽卫视
 http://125.43.247.40:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",安徽卫视
 http://182.114.50.47:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",安徽卫视
+rtp://239.3.1.211:8064
 #EXTINF:-1 group-title="电视直播",山东卫视
 http://125.210.152.18:9090/live/SDWSHD_H265.m3u8
 #EXTINF:-1 group-title="电视直播",山东卫视
@@ -360,11 +360,11 @@ http://gslbserv.itv.cmvideo.cn/6000000001000004134/1.m3u8?channel-id=wasusyt&Con
 #EXTINF:-1 group-title="电视直播",山东卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265019/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265019&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",山东卫视
-rtp://239.3.1.144:3005
-#EXTINF:-1 group-title="电视直播",山东卫视
 http://36.40.236.201:9999/tsfile/live/0131_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="电视直播",山东卫视
 http://125.43.247.40:9901/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",山东卫视
+rtp://239.3.1.144:3005
 #EXTINF:-1 group-title="电视直播",广东卫视
 http://118.81.195.79:9003/hls/26/index.m3u8
 #EXTINF:-1 group-title="电视直播",广东卫视
@@ -376,11 +376,11 @@ http://gslbserv.itv.cmvideo.cn/6000000001000031076/1.m3u8?channel-id=wasusyt&Con
 #EXTINF:-1 group-title="电视直播",广东卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265034/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265034&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",广东卫视
-rtp://239.3.1.27:2000
-#EXTINF:-1 group-title="电视直播",广东卫视
 http://125.43.247.40:9901/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",广东卫视
 http://36.40.236.201:9999/tsfile/live/0125_2.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="电视直播",广东卫视
+rtp://239.3.1.27:2000
 #EXTINF:-1 group-title="电视直播",深圳卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226959/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EGrVNEZREjuNVKiTJo2mtwg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 group-title="电视直播",深圳卫视
@@ -390,11 +390,11 @@ http://gslbserv.itv.cmvideo.cn/6000000001000002116/1.m3u8?channel-id=wasusyt&Con
 #EXTINF:-1 group-title="电视直播",深圳卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265028/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265028&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",深圳卫视
-rtp://239.3.1.28:2000
-#EXTINF:-1 group-title="电视直播",深圳卫视
 http://36.40.236.201:9999/tsfile/live/0126_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="电视直播",深圳卫视
 http://182.114.50.47:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",深圳卫视
+rtp://239.3.1.28:2000
 #EXTINF:-1 group-title="电视直播",辽宁卫视
 http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
 #EXTINF:-1 group-title="电视直播",辽宁卫视
@@ -404,23 +404,23 @@ http://gslbserv.itv.cmvideo.cn/5000000004000011671/1.m3u8?channel-id=bestzb&Cont
 #EXTINF:-1 group-title="电视直播",辽宁卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265022/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265022&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",辽宁卫视
-rtp://239.3.1.210:8056
-#EXTINF:-1 group-title="电视直播",辽宁卫视
 http://182.114.50.47:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",辽宁卫视
 http://125.43.247.40:9901/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",辽宁卫视
+rtp://239.3.1.210:8056
 #EXTINF:-1 group-title="电视直播",河南卫视
 http://118.81.195.79:9003/hls/30/index.m3u8
 #EXTINF:-1 group-title="电视直播",河南卫视
 http://gslbserv.itv.cmvideo.cn/5000000011000031119/1.m3u8?channel-id=bestzb&Contentid=5000000011000031119&livemode=1&stbId=3
-#EXTINF:-1 group-title="电视直播",河南卫视
-rtp://239.3.1.50:8184
 #EXTINF:-1 group-title="电视直播",河南卫视
 http://125.43.247.40:9901/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",河南卫视
 http://36.40.236.201:9999/tsfile/live/0139_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="电视直播",河南卫视
 http://182.114.50.47:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",河南卫视
+rtp://239.3.1.50:8184
 #EXTINF:-1 group-title="电视直播",湖北卫视
 http://118.81.195.79:9003/hls/32/index.m3u8
 #EXTINF:-1 group-title="电视直播",湖北卫视
@@ -432,11 +432,11 @@ http://gslbserv.itv.cmvideo.cn/6000000001000015436/1.m3u8?channel-id=wasusyt&Con
 #EXTINF:-1 group-title="电视直播",湖北卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265023/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265023&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",湖北卫视
-rtp://239.3.1.138:8044
-#EXTINF:-1 group-title="电视直播",湖北卫视
 http://182.114.50.47:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",湖北卫视
 http://125.43.247.40:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",湖北卫视
+rtp://239.3.1.138:8044
 #EXTINF:-1 group-title="电视直播",江西卫视
 http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8
 #EXTINF:-1 group-title="电视直播",江西卫视
@@ -446,9 +446,9 @@ http://gslbserv.itv.cmvideo.cn/1000000006000268001/1.m3u8?channel-id=ystenlive&C
 #EXTINF:-1 group-title="电视直播",江西卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265032/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265032&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",江西卫视
-rtp://239.3.1.123:8164
-#EXTINF:-1 group-title="电视直播",江西卫视
 http://125.43.247.40:9901/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",江西卫视
+rtp://239.3.1.123:8164
 #EXTINF:-1 group-title="电视直播",四川卫视
 http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8
 #EXTINF:-1 group-title="电视直播",四川卫视
@@ -456,9 +456,9 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 #EXTINF:-1 group-title="电视直播",四川卫视
 http://gslbserv.itv.cmvideo.cn/5000000004000006119/1.m3u8?channel-id=bestzb&Contentid=5000000004000006119&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",四川卫视
-rtp://239.3.1.131:3001
-#EXTINF:-1 group-title="电视直播",四川卫视
 http://125.43.247.40:9901/tsfile/live/1039_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",四川卫视
+rtp://239.3.1.131:3001
 #EXTINF:-1 group-title="电视直播",重庆卫视
 http://118.81.195.79:9003/hls/22/index.m3u8
 #EXTINF:-1 group-title="电视直播",重庆卫视
@@ -468,9 +468,9 @@ http://gslbserv.itv.cmvideo.cn/1000000001000001096/1.m3u8?channel-id=ystenlive&C
 #EXTINF:-1 group-title="电视直播",重庆卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265017/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265017&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",重庆卫视
-rtp://239.3.1.122:8160
-#EXTINF:-1 group-title="电视直播",重庆卫视
 http://125.43.247.40:9901/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",重庆卫视
+rtp://239.3.1.122:8160
 #EXTINF:-1 group-title="电视直播",天津卫视
 http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8
 #EXTINF:-1 group-title="电视直播",天津卫视
@@ -488,11 +488,11 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 #EXTINF:-1 group-title="电视直播",河北卫视
 http://gslbserv.itv.cmvideo.cn/5000000006000040016/1.m3u8?channel-id=bestzb&Contentid=5000000006000040016&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",河北卫视
-rtp://239.3.1.148:8072
-#EXTINF:-1 group-title="电视直播",河北卫视
 http://36.40.236.201:9999/tsfile/live/0138_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="电视直播",河北卫视
 http://125.43.247.40:9901/tsfile/live/1032_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",河北卫视
+rtp://239.3.1.148:8072
 #EXTINF:-1 group-title="电视直播",东南卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226991/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EQ6F5Mjgs0tJyEArWFL3vQA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 group-title="电视直播",东南卫视
@@ -500,11 +500,11 @@ http://gslbserv.itv.cmvideo.cn/5000000004000010584/1.m3u8?channel-id=bestzb&Cont
 #EXTINF:-1 group-title="电视直播",东南卫视
 http://gslbserv.itv.cmvideo.cn/1000000005000265033/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265033&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",东南卫视
-rtp://239.3.1.156:8148
-#EXTINF:-1 group-title="电视直播",东南卫视
 http://36.40.236.201:9999/tsfile/live/0137_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="电视直播",东南卫视
 http://125.43.247.40:9901/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",东南卫视
+rtp://239.3.1.156:8148
 #EXTINF:-1 group-title="电视直播",广西卫视
 http://118.81.195.79:9003/hls/27/index.m3u8
 #EXTINF:-1 group-title="电视直播",广西卫视
@@ -518,13 +518,13 @@ http://118.81.195.79:9003/hls/19/index.m3u8
 #EXTINF:-1 group-title="电视直播",山西卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227016/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESb5Qr3NTpE2ZugIroKoyTw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 group-title="电视直播",山西卫视
-http://59.32.97.20:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="电视直播",山西卫视
 http://125.43.247.40:9901/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",山西卫视
 http://36.40.236.201:9999/tsfile/live/0118_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="电视直播",山西卫视
 http://182.114.50.47:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",山西卫视
+http://59.32.97.20:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",陕西卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 group-title="电视直播",陕西卫视
@@ -542,9 +542,9 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 #EXTINF:-1 group-title="电视直播",贵州卫视
 http://gslbserv.itv.cmvideo.cn/5000000004000025843/1.m3u8?channel-id=bestzb&Contentid=5000000004000025843&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",贵州卫视
-rtp://239.3.1.149:8076
-#EXTINF:-1 group-title="电视直播",贵州卫视
 http://125.43.247.40:9901/tsfile/live/1038_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",贵州卫视
+rtp://239.3.1.149:8076
 #EXTINF:-1 group-title="电视直播",云南卫视
 https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8
 #EXTINF:-1 group-title="电视直播",云南卫视
@@ -560,9 +560,9 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 #EXTINF:-1 group-title="电视直播",甘肃卫视
 http://gslbserv.itv.cmvideo.cn/5000000011000031121/1.m3u8?channel-id=bestzb&Contentid=5000000011000031121&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",甘肃卫视
-rtp://239.3.1.201:8180
-#EXTINF:-1 group-title="电视直播",甘肃卫视
 http://36.40.236.201:9999/tsfile/live/0141_2.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="电视直播",甘肃卫视
+rtp://239.3.1.201:8180
 #EXTINF:-1 group-title="电视直播",吉林卫视
 http://118.81.195.79:9003/hls/34/index.m3u8
 #EXTINF:-1 group-title="电视直播",吉林卫视
@@ -570,9 +570,9 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 #EXTINF:-1 group-title="电视直播",吉林卫视
 http://gslbserv.itv.cmvideo.cn/5000000011000031117/1.m3u8?channel-id=bestzb&Contentid=5000000011000031117&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",吉林卫视
-rtp://239.3.1.240:8172
-#EXTINF:-1 group-title="电视直播",吉林卫视
 http://36.40.236.201:9999/tsfile/live/0116_2.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="电视直播",吉林卫视
+rtp://239.3.1.240:8172
 #EXTINF:-1 group-title="电视直播",内蒙古卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227018/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ErN_hoRDwApMKnJqiNHvn9w%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 group-title="电视直播",内蒙古卫视
