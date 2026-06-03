@@ -1,8 +1,8 @@
 {
   "urls": [
     {
-      "url": "https://raw.githubusercontent.com/xu1152/tv-source-aggregator/master/sources.json",
-      "name": "📺 484个直播频道(自动更新)"
+      "url": "https://raw.githubusercontent.com/xu1152/tv-source-aggregator/master/sources.txt",
+      "name": "484个直播频道"
     }
   ]
 }
