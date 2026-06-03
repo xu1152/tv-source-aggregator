@@ -438,17 +438,15 @@ def write_json_flat(channels, path):
 
 def write_tvbox(channels, path):
     """
-    tvbox.json 主入口：
+    tvbox.json — 传统 TVBox 扁平格式（100% 老盒子兼容）：
     - dummy 假站点防 UI 闪退
-    - lives 内联全部频道（不依赖外部 M3U）
-    - 单频道多源用 urls 数组（主流 TVBox 格式）
+    - lives 内联全部频道，单频道多源拍扁为多条 {name, url}
+    - url 为纯字符串，不使用 url 数组（避免老 Java 解析器报空）
     """
-    inline = []
+    flat = []
     for ch in channels:
-        inline.append({
-            "name": ch["name"],
-            "urls": list(ch.get("urls", [])),
-        })
+        for u in ch.get("urls", []):
+            flat.append({"name": ch["name"], "url": u})
     data = {
         "spider": "",
         "sites": [
@@ -460,7 +458,7 @@ def write_tvbox(channels, path):
                 "searchable": 0,
             }
         ],
-        "lives": [{"group": SINGLE_GROUP, "channels": inline}],
+        "lives": [{"group": SINGLE_GROUP, "channels": flat}],
     }
     _write_json(data, path)
 
