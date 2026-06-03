@@ -173,6 +173,9 @@ def _build_matcher():
 
 MATCH_LIST, WHITELIST_ORDER = _build_matcher()
 
+# wid → 首选显示名（白名单第一变体）
+WHITELIST_DICT = {wid: keywords for wid, keywords in WHITELIST}
+
 # 黑名单：标准化 key 集合
 BLACKLIST_KEYS = {
     _norm(s) for s in [
@@ -263,7 +266,7 @@ def fetch_text(url):
                 continue
         return raw.decode("utf-8", errors="replace")
     except Exception as e:
-        print(f"  ⚠ {url.rsplit('/', 1)[-1]}: {e}", file=sys.stderr)
+        print(f"  WARN {url.rsplit('/', 1)[-1]}: {e}", file=sys.stderr)
         return None
 
 
@@ -318,10 +321,11 @@ def parse_txt(text):
 
 def merge_and_dedup(entries):
     """
-    合并频道：
-    - 同标准化 key → 合并 URLs
+    合并频道（按白名单 ID 分组）：
+    - 白名单匹配 → 按 wid 合并
+    - 未匹配的丢弃
     - 黑名单过滤
-    - 返回 {norm_key: {"name": display_name, "urls": [...]}}
+    - 返回 {wid: {"name": display_name, "urls": [...], "_order": priority}}
     """
     cmap = {}
     for e in entries:
@@ -332,16 +336,19 @@ def merge_and_dedup(entries):
         nk = _name_key(name)
         if nk in BLACKLIST_KEYS:
             continue
-        # 显示名：去 FPS 尾缀
+        # 白名单匹配
+        wid = match_whitelist(name)
+        if not wid:
+            continue  # 非白名单频道直接丢弃
+        # 显示名清洗
         disp = re.sub(r'[\d０-９]+\s*[FＦfｆ][PＰpｐ][SＳsｓ]', '', name)
         disp = re.sub(r'\s+', '', disp)
-        if nk not in cmap:
-            cmap[nk] = {"name": disp, "urls": []}
-        existing = cmap[nk]
-        # 如果新 name 更干净（不含 FPS），替换
-        if disp != existing["name"] and not re.search(r'\d+FPS', disp, re.IGNORECASE):
-            if re.search(r'\d+FPS', existing["name"], re.IGNORECASE):
-                existing["name"] = disp
+        if wid not in cmap:
+            cmap[wid] = {"name": disp, "urls": [], "_order": WHITELIST_ORDER.get(wid, 999)}
+        existing = cmap[wid]
+        # 选最短最干净的名字
+        if len(disp) < len(existing["name"]):
+            existing["name"] = disp
         if url not in existing["urls"]:
             existing["urls"].append(url)
     return cmap
@@ -351,18 +358,19 @@ def merge_and_dedup(entries):
 # ╚══════════════════════════════════════════════════════════════╝
 
 def sort_channels(merged):
-    """白名单过滤 → 标准化显示名 → 按白名单顺序排序"""
+    """标准化显示名 → 归一化为白名单首选名 → 按白名单顺序排序"""
     result = []
-    for nk, data in merged.items():
-        wid = match_whitelist(data["name"])
-        if not wid:
-            continue
-        data["name"] = normalize_display(data["name"])
-        data["_wid"]  = wid
+    for wid, data in merged.items():
+        # 用白名单第一个变体（如 CCTV-1）作为显示名
+        whitelist_names = WHITELIST_DICT.get(wid)
+        if whitelist_names:
+            data["name"] = whitelist_names[0]
+        else:
+            data["name"] = normalize_display(data["name"])
         result.append(data)
-    result.sort(key=lambda x: (WHITELIST_ORDER.get(x["_wid"], 999), x["name"]))
+    result.sort(key=lambda x: x.get("_order", 999))
     for r in result:
-        r.pop("_wid", None)
+        r.pop("_order", None)
     return result
 
 # ╔══════════════════════════════════════════════════════════════╗
@@ -372,30 +380,33 @@ def sort_channels(merged):
 def inject_local(channels):
     """
     注入黑龙江本地源：
-    - 如果频道已存在（重名）→ 追加 URL 到已有记录
-    - 如果频道不存在 → 新建
+    - 如果频道已存在 → 追加 URL
+    - 如果频道不存在 → 追加新频道
     返回注入后的 channels 列表（已重新排序）
     """
     for name, url in HLJ_LOCAL:
-        nk = _name_key(name)
+        wid = match_whitelist(name)
         found = False
         for ch in channels:
-            if _name_key(ch["name"]) == nk:
+            if _name_key(ch["name"]) == _name_key(name) or (wid and match_whitelist(ch.get("_ref_name", ch["name"])) == wid):
                 if url not in ch["urls"]:
                     ch["urls"].append(url)
                 found = True
                 print(f"    + {name} (追加到已有)")
                 break
         if not found:
-            channels.append({"name": name, "urls": [url]})
-            print(f"    ★ {name} (★ 新建)")
+            new_ch = {"name": name, "urls": [url]}
+            # 找到插入位置
+            new_order = WHITELIST_ORDER.get(wid, 999)
+            channels.append(new_ch)
+            print(f"    ** {name} (** 新建)")
 
     # 重新排序
     for ch in channels:
-        ch["_wid"] = match_whitelist(ch["name"])
-    channels.sort(key=lambda x: (WHITELIST_ORDER.get(x["_wid"], 999), x["name"]))
+        ch["_order"] = WHITELIST_ORDER.get(match_whitelist(ch["name"]), 999)
+    channels.sort(key=lambda x: x.get("_order", 999))
     for ch in channels:
-        ch.pop("_wid", None)
+        ch.pop("_order", None)
     return channels
 
 # ╔══════════════════════════════════════════════════════════════╗
@@ -495,7 +506,7 @@ def main():
             try:
                 text = fut.result()
             except Exception as e:
-                print(f"  ✗ 线程异常: {e}", file=sys.stderr)
+                print(f"  ERR 线程异常: {e}", file=sys.stderr)
                 fetch_fail += 1
                 continue
             if text is None:
@@ -504,7 +515,7 @@ def main():
                 continue
             parser = parse_m3u if fmt == "m3u" else parse_txt
             entries = parser(text)
-            print(f"  ✓ {len(entries)} 条")
+            print(f"  OK {len(entries)} 条")
             all_entries.extend(entries)
             fetch_ok += 1
 
@@ -525,10 +536,10 @@ def main():
 
     # ── 打印清单 ──
     url_total = sum(len(ch.get("urls", [])) for ch in sorted_ch)
-    print(f"\n  ▶ 最终频道 ({len(sorted_ch)} 个 · {url_total} 条链路):")
+    print(f"\n  >> 最终频道 ({len(sorted_ch)} 个 · {url_total} 条链路):")
     for i, ch in enumerate(sorted_ch, 1):
         ul = ch.get("urls", [])
-        star = "★" if any("111.40.205.87" in u for u in ul) else " "
+        star = "**" if any("111.40.205.87" in u for u in ul) else " "
         print(f"    {i:2d}. {star} {ch['name']}  ({len(ul)}条)")
 
     # ── 5. 输出文件到仓库根目录 ──
@@ -549,7 +560,7 @@ def main():
         print(f"\n[OUTPUT] {fname}  ({size_kb:.1f} KB) — {desc}")
 
     print(f"\n{'='*60}")
-    print(f"  ✅ 聚合完成！{len(sorted_ch)} 频道 · {url_total} 链路 · 零测速")
+    print(f"  ==> 聚合完成！{len(sorted_ch)} 频道 · {url_total} 链路 · 零测速")
     print(f"  单一大类「{SINGLE_GROUP}」· 白名单强排序 · tvbox.json 即插即用")
     print("=" * 60)
 
