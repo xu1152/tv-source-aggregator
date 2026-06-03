@@ -1,11 +1,27 @@
 #!/usr/bin/env python3
-"""TV 直播源聚合 — 多源拉取→合并去重→TVBox JSON"""
+"""TV 直播源聚合 — 多源拉取→合并去重→TVBox JSON + M3U + TXT + 多节点冗余 tvbox.json"""
 import json, re, os, sys
 from urllib.request import urlopen, Request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-OUTPUT_FILE = "sources.json"
+# Output files (relative to repo root)
+OUTPUT_JSON  = "sources.json"
+OUTPUT_M3U   = "sources.m3u"
+OUTPUT_TXT   = "sources.txt"
+OUTPUT_TVBOX = "tvbox.json"
+
 TIMEOUT = 15; MAX_WORKERS = 8
+
+# 多节点 CDN 配置（用于 tvbox.json 三线路容灾）
+RAW_BASE = "xu1152/tv-source-aggregator/master"
+CDN_NODES = [
+    # ghfast.top 需要拼接完整 raw URL
+    {"name": "主线：极速加速节点", "url_template": "https://ghfast.top/https://raw.githubusercontent.com/{repo}/{file}", "epg": "http://epg.51zmt.top:8000/api/diyp/"},
+    # gitmirror 直接替换域名
+    {"name": "备用：稳定加速节点", "url_template": "https://raw.gitmirror.com/{repo}/{file}", "epg": ""},
+    # GitHub 官方直连
+    {"name": "备用：GitHub 官方直连", "url_template": "https://raw.githubusercontent.com/{repo}/{file}", "epg": ""},
+]
 
 SOURCE_URLS = [
     ("https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u", "m3u"),
@@ -197,8 +213,57 @@ def merge(entries):
     r.sort(key=lambda x:(GROUP_ORDER.get(x["group"],99),x["name"]))
     return r
 
+def generate_m3u(channels, path):
+    """生成标准 M3U 播放列表。"""
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for ch in channels:
+            name = ch["name"]; group = ch.get("group", ""); logo = ch.get("logo", "")
+            for url in ch.get("urls", []):
+                f.write(f'#EXTINF:-1 group-title="{group}" tvg-logo="{logo}",{name}\n')
+                f.write(f"{url}\n")
+
+def generate_txt(channels, path):
+    """生成 TXT 格式（频道名,URL）。"""
+    with open(path, "w", encoding="utf-8") as f:
+        for ch in channels:
+            for url in ch.get("urls", []):
+                f.write(f'{ch["name"]},{url}\n')
+
+def generate_tvbox_json(m3u_path, path):
+    """生成多节点容灾 tvbox.json。"""
+    m3u_rel = os.path.basename(m3u_path)
+    lives = []
+    for node in CDN_NODES:
+        full_url = node["url_template"].format(repo=RAW_BASE, file=m3u_rel)
+        entry = {
+            "name": node["name"],
+            "type": 0,
+            "url": full_url,
+            "playerType": 1
+        }
+        if node.get("epg"):
+            entry["epg"] = node["epg"]
+        lives.append(entry)
+
+    config = {
+        "spider": "",
+        "sites": [{
+            "key": "csp_MyLive",
+            "name": "\U0001f680 \u4e13\u5c5e\u805a\u5408\u6e90|\u9632\u5d29\u6e83\u9aa8\u67b6",
+            "type": 3,
+            "api": "csp_XPath",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0
+        }],
+        "lives": lives
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(config, f, ensure_ascii=False, indent=2)
+
 def main():
-    print("="*55); print("  TV 直播源聚合器"); print("="*55)
+    print("="*55); print("  TV \u76f4\u64ad\u6e90\u805a\u5408\u5668"); print("="*55)
     all_e = []
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
         fs = {}
@@ -212,15 +277,36 @@ def main():
             all_e.extend(entries)
     print(f"\n{'='*55}")
     merged = merge(all_e)
-    print(f"  原始:{len(all_e)} | 去重:{len(merged)}")
+    print(f"  \u539f\u59cb:{len(all_e)} | \u53bb\u91cd:{len(merged)}")
     gc = {}
     for ch in merged: g=ch["group"]; gc[g]=gc.get(g,0)+1
     for g in sorted(gc,key=lambda x:GROUP_ORDER.get(x,99)): print(f"    {g}:{gc[g]}")
-    output = {"lives":merged}
+
+    # 输出目录 = 仓库根目录
     sd = os.path.dirname(os.path.abspath(__file__))
-    op = os.path.join(os.path.dirname(sd), OUTPUT_FILE)
-    with open(op,"w",encoding="utf-8") as f: json.dump(output,f,ensure_ascii=False,indent=2)
-    print(f"\n[OUTPUT] sources.json ({os.path.getsize(op)/1024:.1f} KB)")
+    root = os.path.dirname(sd)
+
+    # 1. sources.json
+    op = os.path.join(root, OUTPUT_JSON)
+    with open(op,"w",encoding="utf-8") as f:
+        json.dump({"lives":merged}, f, ensure_ascii=False, indent=2)
+    print(f"\n[OUTPUT] {OUTPUT_JSON} ({os.path.getsize(op)/1024:.1f} KB)")
+
+    # 2. sources.m3u
+    mp = os.path.join(root, OUTPUT_M3U)
+    generate_m3u(merged, mp)
+    print(f"[OUTPUT] {OUTPUT_M3U} ({os.path.getsize(mp)/1024:.1f} KB)")
+
+    # 3. sources.txt
+    tp = os.path.join(root, OUTPUT_TXT)
+    generate_txt(merged, tp)
+    print(f"[OUTPUT] {OUTPUT_TXT} ({os.path.getsize(tp)/1024:.1f} KB)")
+
+    # 4. tvbox.json (多节点容灾)
+    tvp = os.path.join(root, OUTPUT_TVBOX)
+    generate_tvbox_json(mp, tvp)
+    print(f"[OUTPUT] {OUTPUT_TVBOX} ({os.path.getsize(tvp)/1024:.1f} KB)")
+
     print("="*55)
 
 if __name__ == "__main__": main()
