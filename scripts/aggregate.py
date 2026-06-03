@@ -441,11 +441,14 @@ def write_tvbox(channels, path):
     tvbox.json 主入口：
     - dummy 假站点防 UI 闪退
     - lives 内联全部频道（不依赖外部 M3U）
+    - 单频道多源用 urls 数组（主流 TVBox 格式）
     """
-    flat = []
+    inline = []
     for ch in channels:
-        for u in ch.get("urls", []):
-            flat.append({"name": ch["name"], "url": u})
+        inline.append({
+            "name": ch["name"],
+            "urls": list(ch.get("urls", [])),
+        })
     data = {
         "spider": "",
         "sites": [
@@ -457,7 +460,7 @@ def write_tvbox(channels, path):
                 "searchable": 0,
             }
         ],
-        "lives": [{"group": SINGLE_GROUP, "channels": flat}],
+        "lives": [{"group": SINGLE_GROUP, "channels": inline}],
     }
     _write_json(data, path)
 
@@ -548,7 +551,7 @@ def main():
 
     files = [
         (OUTPUT_JSON,  write_json_flat, "扁平 JSON（供 GitHub Actions 参考）"),
-        (OUTPUT_TVBOX, write_tvbox,     "TVBox 主入口（内联频道 + 防崩溃）"),
+        (OUTPUT_TVBOX, write_tvbox,     "TVBox 主入口（内联 urls 数组 + 防崩溃）"),
         (OUTPUT_M3U,   write_m3u,       "M3U 标准格式"),
         (OUTPUT_TXT,   write_txt,       "TXT 纯文本格式"),
     ]
