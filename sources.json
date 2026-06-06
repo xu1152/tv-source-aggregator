@@ -7,11 +7,7 @@
       "channels": [
         {
           "name": "CCTV-1",
-          "url": "http://69.30.245.50/live/cctv1.m3u8"
-        },
-        {
-          "name": "CCTV-1",
-          "url": "http://74.91.26.218:82/live/cctv1hd.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?"
         },
         {
           "name": "CCTV-1",
@@ -19,7 +15,11 @@
         },
         {
           "name": "CCTV-1",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?"
+          "url": "http://69.30.245.50/live/cctv1.m3u8"
+        },
+        {
+          "name": "CCTV-1",
+          "url": "http://74.91.26.218:82/live/cctv1hd.m3u8"
         },
         {
           "name": "CCTV-1",
@@ -31,7 +31,7 @@
         },
         {
           "name": "CCTV-2",
-          "url": "http://74.91.26.218:82/live/cctv2hd.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226893/1.m3u8?"
         },
         {
           "name": "CCTV-2",
@@ -39,7 +39,7 @@
         },
         {
           "name": "CCTV-2",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226893/1.m3u8?"
+          "url": "http://74.91.26.218:82/live/cctv2hd.m3u8"
         },
         {
           "name": "CCTV-2",
@@ -47,7 +47,7 @@
         },
         {
           "name": "CCTV-3",
-          "url": "http://74.91.26.218:82/live/cctv3hd.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226471/1.m3u8?"
         },
         {
           "name": "CCTV-3",
@@ -59,7 +59,7 @@
         },
         {
           "name": "CCTV-3",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226471/1.m3u8?"
+          "url": "http://74.91.26.218:82/live/cctv3hd.m3u8"
         },
         {
           "name": "CCTV-3",
@@ -68,6 +68,10 @@
         {
           "name": "CCTV-3",
           "url": "http://gslbserv.itv.cmvideo.cn/1000000005000265003/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265003&livemode=1&stbId=3"
+        },
+        {
+          "name": "CCTV-4",
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226335/1.m3u8?"
         },
         {
           "name": "CCTV-4",
@@ -83,15 +87,11 @@
         },
         {
           "name": "CCTV-4",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226335/1.m3u8?"
-        },
-        {
-          "name": "CCTV-4",
           "url": "http://gslbserv.itv.cmvideo.cn/1000000005000265004/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265004&livemode=1&stbId=3"
         },
         {
           "name": "CCTV-5",
-          "url": "http://192.151.150.154/live/cctv5hd.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226469/1.m3u8?"
         },
         {
           "name": "CCTV-5",
@@ -99,7 +99,7 @@
         },
         {
           "name": "CCTV-5",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226469/1.m3u8?"
+          "url": "http://192.151.150.154/live/cctv5hd.m3u8"
         },
         {
           "name": "CCTV-5",
@@ -111,7 +111,7 @@
         },
         {
           "name": "CCTV-6",
-          "url": "http://198.204.240.250:82/live/cctv6.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226468/1.m3u8?"
         },
         {
           "name": "CCTV-6",
@@ -119,7 +119,7 @@
         },
         {
           "name": "CCTV-6",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226468/1.m3u8?"
+          "url": "http://198.204.240.250:82/live/cctv6.m3u8"
         },
         {
           "name": "CCTV-6",
@@ -131,7 +131,7 @@
         },
         {
           "name": "CCTV-7",
-          "url": "http://74.91.26.218:82/live/cctv7hd.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8?"
         },
         {
           "name": "CCTV-7",
@@ -139,7 +139,7 @@
         },
         {
           "name": "CCTV-7",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8?"
+          "url": "http://74.91.26.218:82/live/cctv7hd.m3u8"
         },
         {
           "name": "CCTV-7",
@@ -151,7 +151,7 @@
         },
         {
           "name": "CCTV-8",
-          "url": "http://74.91.26.218:82/live/cctv8hd.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226485/1.m3u8?"
         },
         {
           "name": "CCTV-8",
@@ -159,7 +159,7 @@
         },
         {
           "name": "CCTV-8",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226485/1.m3u8?"
+          "url": "http://74.91.26.218:82/live/cctv8hd.m3u8"
         },
         {
           "name": "CCTV-8",
@@ -171,11 +171,11 @@
         },
         {
           "name": "CCTV-9",
-          "url": "rtp://239.3.1.62:8112"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226944/1.m3u8?"
         },
         {
           "name": "CCTV-9",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226944/1.m3u8?"
+          "url": "rtp://239.3.1.62:8112"
         },
         {
           "name": "CCTV-9",
@@ -187,7 +187,7 @@
         },
         {
           "name": "CCTV-10",
-          "url": "http://74.91.26.218:82/live/cctv10hd.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226937/1.m3u8?"
         },
         {
           "name": "CCTV-10",
@@ -195,7 +195,7 @@
         },
         {
           "name": "CCTV-10",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226937/1.m3u8?"
+          "url": "http://74.91.26.218:82/live/cctv10hd.m3u8"
         },
         {
           "name": "CCTV-10",
@@ -207,7 +207,7 @@
         },
         {
           "name": "CCTV-11",
-          "url": "http://74.91.26.218:82/live/cctv11hd.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226334/1.m3u8?"
         },
         {
           "name": "CCTV-11",
@@ -215,7 +215,7 @@
         },
         {
           "name": "CCTV-11",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226334/1.m3u8?"
+          "url": "http://74.91.26.218:82/live/cctv11hd.m3u8"
         },
         {
           "name": "CCTV-11",
@@ -223,7 +223,7 @@
         },
         {
           "name": "CCTV-12",
-          "url": "http://74.91.26.218:82/live/cctv12hd.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226942/1.m3u8?"
         },
         {
           "name": "CCTV-12",
@@ -231,7 +231,7 @@
         },
         {
           "name": "CCTV-12",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226942/1.m3u8?"
+          "url": "http://74.91.26.218:82/live/cctv12hd.m3u8"
         },
         {
           "name": "CCTV-12",
@@ -243,11 +243,7 @@
         },
         {
           "name": "CCTV-13",
-          "url": "http://go.bkpcp.top/mg/cctv13"
-        },
-        {
-          "name": "CCTV-13",
-          "url": "https://cdn3.163189.xyz/163189/cctv13"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226316/1.m3u8?"
         },
         {
           "name": "CCTV-13",
@@ -255,11 +251,15 @@
         },
         {
           "name": "CCTV-13",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226316/1.m3u8?"
+          "url": "http://go.bkpcp.top/mg/cctv13"
+        },
+        {
+          "name": "CCTV-13",
+          "url": "https://cdn3.163189.xyz/163189/cctv13"
         },
         {
           "name": "CCTV-14",
-          "url": "http://74.91.26.218:82/live/cctv14hd.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226947/1.m3u8?"
         },
         {
           "name": "CCTV-14",
@@ -267,7 +267,7 @@
         },
         {
           "name": "CCTV-14",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226947/1.m3u8?"
+          "url": "http://74.91.26.218:82/live/cctv14hd.m3u8"
         },
         {
           "name": "CCTV-14",
@@ -279,7 +279,7 @@
         },
         {
           "name": "CCTV-15",
-          "url": "https://xykt-fix.github.io/play/a02e/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226333/1.m3u8?"
         },
         {
           "name": "CCTV-15",
@@ -287,7 +287,7 @@
         },
         {
           "name": "CCTV-15",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226333/1.m3u8?"
+          "url": "https://xykt-fix.github.io/play/a02e/index.m3u8"
         },
         {
           "name": "CCTV-15",
@@ -295,7 +295,7 @@
         },
         {
           "name": "CCTV-5+",
-          "url": "http://192.151.150.154/live/cctv5p.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226894/1.m3u8?"
         },
         {
           "name": "CCTV-5+",
@@ -303,7 +303,7 @@
         },
         {
           "name": "CCTV-5+",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226894/1.m3u8?"
+          "url": "http://192.151.150.154/live/cctv5p.m3u8"
         },
         {
           "name": "CCTV-5+",
@@ -315,11 +315,11 @@
         },
         {
           "name": "CETV-1",
-          "url": "http://117.161.133.51:81/gitv_live/G_CETV-1/G_CETV-1.m3u8?p=GITV"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226494/1.m3u8?"
         },
         {
           "name": "CETV-1",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226494/1.m3u8?"
+          "url": "http://117.161.133.51:81/gitv_live/G_CETV-1/G_CETV-1.m3u8?p=GITV"
         },
         {
           "name": "CETV-1",
@@ -335,7 +335,7 @@
         },
         {
           "name": "黑龙江卫视",
-          "url": "http://118.81.195.79:9003/hls/31/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226965/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7UiKL56-L86ihmTWaZ6csw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "黑龙江卫视",
@@ -343,7 +343,7 @@
         },
         {
           "name": "黑龙江卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226965/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7UiKL56-L86ihmTWaZ6csw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://118.81.195.79:9003/hls/31/index.m3u8"
         },
         {
           "name": "黑龙江卫视",
@@ -375,11 +375,11 @@
         },
         {
           "name": "湖南卫视",
-          "url": "rtp://239.3.1.112:3002"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226509/1.m3u8?zoneoffset=480&servicetype=1&icpid=&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%7E%7EV2.0%7EIGb_ib7rnBX9_sANRKq9sg%7EpK8OKM5JoJWWbLRyLfPcUMkwWZ90MzSI9S9PDltJsYzd0ZGcS3Tkh7syciNKJa-w60mDOdwtDyoNwCx9aRgzHNH9AUREV_qvNJtXHRPzYw0%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3D%3D%3A20221022013542%2C915973%2C119.123.71.209%2C20221022013542%2C10000100000000050000000003873458%2C915973%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C10000100000000060000000007253514_0%2CEND&GuardEncType=2"
         },
         {
           "name": "湖南卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226509/1.m3u8?zoneoffset=480&servicetype=1&icpid=&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%7E%7EV2.0%7EIGb_ib7rnBX9_sANRKq9sg%7EpK8OKM5JoJWWbLRyLfPcUMkwWZ90MzSI9S9PDltJsYzd0ZGcS3Tkh7syciNKJa-w60mDOdwtDyoNwCx9aRgzHNH9AUREV_qvNJtXHRPzYw0%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3D%3D%3A20221022013542%2C915973%2C119.123.71.209%2C20221022013542%2C10000100000000050000000003873458%2C915973%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C10000100000000060000000007253514_0%2CEND&GuardEncType=2"
+          "url": "rtp://239.3.1.112:3002"
         },
         {
           "name": "湖南卫视",
@@ -395,7 +395,7 @@
         },
         {
           "name": "浙江卫视",
-          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226899/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ETYfTgTra_pUx2cPrgZ_BDw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "浙江卫视",
@@ -403,7 +403,7 @@
         },
         {
           "name": "浙江卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226899/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ETYfTgTra_pUx2cPrgZ_BDw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8"
         },
         {
           "name": "浙江卫视",
@@ -419,7 +419,7 @@
         },
         {
           "name": "江苏卫视",
-          "url": "http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226897/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0BmO6uHF7WFoTed__Xr3NQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "江苏卫视",
@@ -427,7 +427,7 @@
         },
         {
           "name": "江苏卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226897/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0BmO6uHF7WFoTed__Xr3NQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8"
         },
         {
           "name": "江苏卫视",
@@ -443,7 +443,7 @@
         },
         {
           "name": "东方卫视",
-          "url": "http://118.81.195.79:9003/hls/23/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226898/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0uh4lyjjBCCN7TCq21vSIQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "东方卫视",
@@ -451,7 +451,7 @@
         },
         {
           "name": "东方卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226898/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0uh4lyjjBCCN7TCq21vSIQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://118.81.195.79:9003/hls/23/index.m3u8"
         },
         {
           "name": "东方卫视",
@@ -467,7 +467,7 @@
         },
         {
           "name": "北京卫视",
-          "url": "http://go.bkpcp.top/mg/bjws"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226900/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EcYPi33WFyhvd6SjmqUKhJg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "北京卫视",
@@ -475,7 +475,7 @@
         },
         {
           "name": "北京卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226900/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EcYPi33WFyhvd6SjmqUKhJg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://go.bkpcp.top/mg/bjws"
         },
         {
           "name": "北京卫视",
@@ -487,7 +487,7 @@
         },
         {
           "name": "安徽卫视",
-          "url": "http://118.81.195.79:9003/hls/21/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226943/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0QmKQ_slRCwvVVUUfxPVbw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "安徽卫视",
@@ -495,7 +495,7 @@
         },
         {
           "name": "安徽卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226943/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0QmKQ_slRCwvVVUUfxPVbw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://118.81.195.79:9003/hls/21/index.m3u8"
         },
         {
           "name": "安徽卫视",
@@ -511,11 +511,7 @@
         },
         {
           "name": "山东卫视",
-          "url": "http://125.210.152.18:9090/live/SDWSHD_H265.m3u8"
-        },
-        {
-          "name": "山东卫视",
-          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226957/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjW26v5VaHGy1jQuIA-4EbA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "山东卫视",
@@ -523,7 +519,11 @@
         },
         {
           "name": "山东卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226957/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjW26v5VaHGy1jQuIA-4EbA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://125.210.152.18:9090/live/SDWSHD_H265.m3u8"
+        },
+        {
+          "name": "山东卫视",
+          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8"
         },
         {
           "name": "山东卫视",
@@ -539,7 +539,7 @@
         },
         {
           "name": "广东卫视",
-          "url": "http://118.81.195.79:9003/hls/26/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226961/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E2MGyx659D_aaDPP0qt3NgA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "广东卫视",
@@ -547,7 +547,7 @@
         },
         {
           "name": "广东卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226961/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E2MGyx659D_aaDPP0qt3NgA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://118.81.195.79:9003/hls/26/index.m3u8"
         },
         {
           "name": "广东卫视",
@@ -563,11 +563,11 @@
         },
         {
           "name": "深圳卫视",
-          "url": "rtp://239.3.1.28:2000"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226959/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EGrVNEZREjuNVKiTJo2mtwg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "深圳卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226959/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EGrVNEZREjuNVKiTJo2mtwg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "rtp://239.3.1.28:2000"
         },
         {
           "name": "深圳卫视",
@@ -583,7 +583,7 @@
         },
         {
           "name": "辽宁卫视",
-          "url": "http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226966/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E6qJH8Fd-zgCGx3P-Ce86cA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "辽宁卫视",
@@ -591,7 +591,7 @@
         },
         {
           "name": "辽宁卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226966/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E6qJH8Fd-zgCGx3P-Ce86cA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8"
         },
         {
           "name": "辽宁卫视",
@@ -603,11 +603,11 @@
         },
         {
           "name": "河南卫视",
-          "url": "http://118.81.195.79:9003/hls/30/index.m3u8"
+          "url": "rtp://239.3.1.50:8184"
         },
         {
           "name": "河南卫视",
-          "url": "rtp://239.3.1.50:8184"
+          "url": "http://118.81.195.79:9003/hls/30/index.m3u8"
         },
         {
           "name": "河南卫视",
@@ -615,7 +615,7 @@
         },
         {
           "name": "湖北卫视",
-          "url": "http://118.81.195.79:9003/hls/32/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226952/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EREB40lnZnCEwjRy7LZuhIQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "湖北卫视",
@@ -623,7 +623,7 @@
         },
         {
           "name": "湖北卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226952/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EREB40lnZnCEwjRy7LZuhIQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://118.81.195.79:9003/hls/32/index.m3u8"
         },
         {
           "name": "湖北卫视",
@@ -639,7 +639,7 @@
         },
         {
           "name": "江西卫视",
-          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226956/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ei6ZIpVizXlewg-YfGvH8dA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "江西卫视",
@@ -647,7 +647,7 @@
         },
         {
           "name": "江西卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226956/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ei6ZIpVizXlewg-YfGvH8dA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8"
         },
         {
           "name": "江西卫视",
@@ -659,7 +659,7 @@
         },
         {
           "name": "四川卫视",
-          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226995/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EBQiz3wrGrpG0CUSRIJ-7Jg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "四川卫视",
@@ -667,7 +667,7 @@
         },
         {
           "name": "四川卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226995/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EBQiz3wrGrpG0CUSRIJ-7Jg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8"
         },
         {
           "name": "四川卫视",
@@ -675,7 +675,7 @@
         },
         {
           "name": "重庆卫视",
-          "url": "http://118.81.195.79:9003/hls/22/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "重庆卫视",
@@ -683,7 +683,7 @@
         },
         {
           "name": "重庆卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://118.81.195.79:9003/hls/22/index.m3u8"
         },
         {
           "name": "重庆卫视",
@@ -695,7 +695,7 @@
         },
         {
           "name": "天津卫视",
-          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226954/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eaf3wyULP1h575eM_4ByMDg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "天津卫视",
@@ -703,7 +703,7 @@
         },
         {
           "name": "天津卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226954/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eaf3wyULP1h575eM_4ByMDg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8"
         },
         {
           "name": "天津卫视",
@@ -719,11 +719,11 @@
         },
         {
           "name": "河北卫视",
-          "url": "rtp://239.3.1.148:8072"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227014/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ErSGjhI3DMaaAASPrbQJYTg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "河北卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227014/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ErSGjhI3DMaaAASPrbQJYTg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "rtp://239.3.1.148:8072"
         },
         {
           "name": "河北卫视",
@@ -731,11 +731,11 @@
         },
         {
           "name": "东南卫视",
-          "url": "rtp://239.3.1.156:8148"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226991/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EQ6F5Mjgs0tJyEArWFL3vQA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "东南卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226991/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EQ6F5Mjgs0tJyEArWFL3vQA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "rtp://239.3.1.156:8148"
         },
         {
           "name": "东南卫视",
@@ -747,11 +747,11 @@
         },
         {
           "name": "广西卫视",
-          "url": "http://118.81.195.79:9003/hls/27/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227010/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkAhb-89sxdm9fz6-heXCuw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "广西卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227010/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkAhb-89sxdm9fz6-heXCuw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://118.81.195.79:9003/hls/27/index.m3u8"
         },
         {
           "name": "广西卫视",
@@ -759,7 +759,7 @@
         },
         {
           "name": "山西卫视",
-          "url": "http://118.81.195.79:9003/hls/19/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227016/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESb5Qr3NTpE2ZugIroKoyTw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "山西卫视",
@@ -767,7 +767,7 @@
         },
         {
           "name": "山西卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227016/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESb5Qr3NTpE2ZugIroKoyTw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://118.81.195.79:9003/hls/19/index.m3u8"
         },
         {
           "name": "陕西卫视",
@@ -775,11 +775,11 @@
         },
         {
           "name": "海南卫视",
-          "url": "http://118.81.195.79:9003/hls/28/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "海南卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://118.81.195.79:9003/hls/28/index.m3u8"
         },
         {
           "name": "海南卫视",
@@ -787,7 +787,7 @@
         },
         {
           "name": "贵州卫视",
-          "url": "http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227012/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EnqBF03rFwPucF8ODtWxLQQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "贵州卫视",
@@ -795,7 +795,7 @@
         },
         {
           "name": "贵州卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227012/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EnqBF03rFwPucF8ODtWxLQQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU"
         },
         {
           "name": "贵州卫视",
@@ -803,11 +803,11 @@
         },
         {
           "name": "云南卫视",
-          "url": "https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227028/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EGfQPqRNVeBjTMsZ48qu0SA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "云南卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227028/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EGfQPqRNVeBjTMsZ48qu0SA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8"
         },
         {
           "name": "云南卫视",
@@ -815,7 +815,7 @@
         },
         {
           "name": "甘肃卫视",
-          "url": "http://118.81.195.79:9003/hls/25/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227020/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Err-CLugPnTcUinEM8JeySg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "甘肃卫视",
@@ -823,7 +823,7 @@
         },
         {
           "name": "甘肃卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227020/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Err-CLugPnTcUinEM8JeySg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://118.81.195.79:9003/hls/25/index.m3u8"
         },
         {
           "name": "甘肃卫视",
@@ -831,7 +831,7 @@
         },
         {
           "name": "吉林卫视",
-          "url": "http://118.81.195.79:9003/hls/34/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227015/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EW5-3AVdwD5KlUpuA4mz7Cg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "吉林卫视",
@@ -839,7 +839,7 @@
         },
         {
           "name": "吉林卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227015/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EW5-3AVdwD5KlUpuA4mz7Cg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://118.81.195.79:9003/hls/34/index.m3u8"
         },
         {
           "name": "吉林卫视",
@@ -851,7 +851,7 @@
         },
         {
           "name": "宁夏卫视",
-          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227003/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESco1zinvdUYzleEkXYhIvA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "宁夏卫视",
@@ -859,31 +859,31 @@
         },
         {
           "name": "宁夏卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227003/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESco1zinvdUYzleEkXYhIvA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
-        },
-        {
-          "name": "新疆卫视",
-          "url": "rtp://239.3.1.167:8192"
+          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8"
         },
         {
           "name": "新疆卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227011/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ExAUu61iVvo_xYbANWJhgXw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
-          "name": "西藏卫视",
-          "url": "rtp://239.3.1.166:8188"
+          "name": "新疆卫视",
+          "url": "rtp://239.3.1.167:8192"
         },
         {
           "name": "西藏卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227033/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EdeTB7OZ9G_VNJk5C3t96fQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
-          "name": "青海卫视",
-          "url": "http://live.geermurmt.com/qhws/sd/live.m3u8"
+          "name": "西藏卫视",
+          "url": "rtp://239.3.1.166:8188"
         },
         {
           "name": "青海卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227017/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EacviHy_ucMT27Ymf2iLtZA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+        },
+        {
+          "name": "青海卫视",
+          "url": "http://live.geermurmt.com/qhws/sd/live.m3u8"
         },
         {
           "name": "青海卫视",
@@ -923,11 +923,11 @@
         },
         {
           "name": "金鹰卡通",
-          "url": "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8"
+          "url": "rtp://239.3.1.58:8156"
         },
         {
           "name": "金鹰卡通",
-          "url": "rtp://239.3.1.58:8156"
+          "url": "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8"
         },
         {
           "name": "金鹰卡通",
