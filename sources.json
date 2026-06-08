@@ -7,19 +7,19 @@
       "channels": [
         {
           "name": "CCTV-1",
-          "url": "http://69.30.245.50/live/cctv1.m3u8"
-        },
-        {
-          "name": "CCTV-1",
-          "url": "http://74.91.26.218:82/live/cctv1hd.m3u8"
-        },
-        {
-          "name": "CCTV-1",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?"
         },
         {
           "name": "CCTV-1",
           "url": "rtp://239.3.1.129:8008"
+        },
+        {
+          "name": "CCTV-1",
+          "url": "http://69.30.245.50/live/cctv1.m3u8"
+        },
+        {
+          "name": "CCTV-1",
+          "url": "http://74.91.26.218:82/live/cctv1hd.m3u8"
         },
         {
           "name": "CCTV-1",
@@ -31,10 +31,6 @@
         },
         {
           "name": "CCTV-2",
-          "url": "http://74.91.26.218:82/live/cctv2hd.m3u8"
-        },
-        {
-          "name": "CCTV-2",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226893/1.m3u8?"
         },
         {
@@ -43,11 +39,11 @@
         },
         {
           "name": "CCTV-2",
-          "url": "http://gslbserv.itv.cmvideo.cn/1000000001000023315/1.m3u8?channel-id=ystenlive&Contentid=1000000001000023315&livemode=1&stbId=3"
+          "url": "http://74.91.26.218:82/live/cctv2hd.m3u8"
         },
         {
-          "name": "CCTV-3",
-          "url": "http://74.91.26.218:82/live/cctv3hd.m3u8"
+          "name": "CCTV-2",
+          "url": "http://gslbserv.itv.cmvideo.cn/1000000001000023315/1.m3u8?channel-id=ystenlive&Contentid=1000000001000023315&livemode=1&stbId=3"
         },
         {
           "name": "CCTV-3",
@@ -59,7 +55,7 @@
         },
         {
           "name": "CCTV-3",
-          "url": "http://36.40.236.27:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0"
+          "url": "http://74.91.26.218:82/live/cctv3hd.m3u8"
         },
         {
           "name": "CCTV-3",
@@ -68,6 +64,10 @@
         {
           "name": "CCTV-3",
           "url": "http://gslbserv.itv.cmvideo.cn/1000000005000265003/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265003&livemode=1&stbId=3"
+        },
+        {
+          "name": "CCTV-3",
+          "url": "http://36.40.236.27:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0"
         },
         {
           "name": "CCTV-4",
@@ -91,10 +91,6 @@
         },
         {
           "name": "CCTV-5",
-          "url": "http://192.151.150.154/live/cctv5hd.m3u8"
-        },
-        {
-          "name": "CCTV-5",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226469/1.m3u8?"
         },
         {
@@ -111,15 +107,15 @@
         },
         {
           "name": "CCTV-6",
-          "url": "http://198.204.240.250:82/live/cctv6.m3u8"
-        },
-        {
-          "name": "CCTV-6",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226468/1.m3u8?"
         },
         {
           "name": "CCTV-6",
           "url": "rtp://239.3.1.174:8001"
+        },
+        {
+          "name": "CCTV-6",
+          "url": "http://198.204.240.250:82/live/cctv6.m3u8"
         },
         {
           "name": "CCTV-6",
@@ -131,15 +127,15 @@
         },
         {
           "name": "CCTV-7",
-          "url": "http://74.91.26.218:82/live/cctv7hd.m3u8"
-        },
-        {
-          "name": "CCTV-7",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8?"
         },
         {
           "name": "CCTV-7",
           "url": "rtp://239.3.1.61:8104"
+        },
+        {
+          "name": "CCTV-7",
+          "url": "http://74.91.26.218:82/live/cctv7hd.m3u8"
         },
         {
           "name": "CCTV-7",
@@ -151,15 +147,15 @@
         },
         {
           "name": "CCTV-8",
-          "url": "http://74.91.26.218:82/live/cctv8hd.m3u8"
-        },
-        {
-          "name": "CCTV-8",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226485/1.m3u8?"
         },
         {
           "name": "CCTV-8",
           "url": "rtp://239.3.1.175:8001"
+        },
+        {
+          "name": "CCTV-8",
+          "url": "http://74.91.26.218:82/live/cctv8hd.m3u8"
         },
         {
           "name": "CCTV-8",
@@ -187,15 +183,15 @@
         },
         {
           "name": "CCTV-10",
-          "url": "http://74.91.26.218:82/live/cctv10hd.m3u8"
-        },
-        {
-          "name": "CCTV-10",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226937/1.m3u8?"
         },
         {
           "name": "CCTV-10",
           "url": "rtp://239.3.1.63:8116"
+        },
+        {
+          "name": "CCTV-10",
+          "url": "http://74.91.26.218:82/live/cctv10hd.m3u8"
         },
         {
           "name": "CCTV-10",
@@ -207,10 +203,6 @@
         },
         {
           "name": "CCTV-11",
-          "url": "http://74.91.26.218:82/live/cctv11hd.m3u8"
-        },
-        {
-          "name": "CCTV-11",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226334/1.m3u8?"
         },
         {
@@ -219,11 +211,11 @@
         },
         {
           "name": "CCTV-11",
-          "url": "http://gslbserv.itv.cmvideo.cn/1000000005000265011/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265011&livemode=1&stbId=3"
+          "url": "http://74.91.26.218:82/live/cctv11hd.m3u8"
         },
         {
-          "name": "CCTV-12",
-          "url": "http://74.91.26.218:82/live/cctv12hd.m3u8"
+          "name": "CCTV-11",
+          "url": "http://gslbserv.itv.cmvideo.cn/1000000005000265011/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265011&livemode=1&stbId=3"
         },
         {
           "name": "CCTV-12",
@@ -235,19 +227,15 @@
         },
         {
           "name": "CCTV-12",
+          "url": "http://74.91.26.218:82/live/cctv12hd.m3u8"
+        },
+        {
+          "name": "CCTV-12",
           "url": "http://gslbserv.itv.cmvideo.cn/1000000001000032494/1.m3u8?channel-id=ystenlive&Contentid=1000000001000032494&livemode=1&stbId=3"
         },
         {
           "name": "CCTV-12",
           "url": "http://gslbserv.itv.cmvideo.cn/1000000005000265012/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265012&livemode=1&stbId=3"
-        },
-        {
-          "name": "CCTV-13",
-          "url": "http://go.bkpcp.top/mg/cctv13"
-        },
-        {
-          "name": "CCTV-13",
-          "url": "https://cdn3.163189.xyz/163189/cctv13"
         },
         {
           "name": "CCTV-13",
@@ -258,8 +246,12 @@
           "url": "rtp://239.3.1.124:8128"
         },
         {
-          "name": "CCTV-14",
-          "url": "http://74.91.26.218:82/live/cctv14hd.m3u8"
+          "name": "CCTV-13",
+          "url": "http://go.bkpcp.top/mg/cctv13"
+        },
+        {
+          "name": "CCTV-13",
+          "url": "https://cdn3.163189.xyz/163189/cctv13"
         },
         {
           "name": "CCTV-14",
@@ -271,15 +263,15 @@
         },
         {
           "name": "CCTV-14",
+          "url": "http://74.91.26.218:82/live/cctv14hd.m3u8"
+        },
+        {
+          "name": "CCTV-14",
           "url": "http://gslbserv.itv.cmvideo.cn/1000000001000008170/1.m3u8?channel-id=ystenlive&Contentid=1000000001000008170&livemode=1&stbId=3"
         },
         {
           "name": "CCTV-14",
           "url": "http://gslbserv.itv.cmvideo.cn/1000000005000265013/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265013&livemode=1&stbId=3"
-        },
-        {
-          "name": "CCTV-15",
-          "url": "https://xykt-fix.github.io/play/a02e/index.m3u8"
         },
         {
           "name": "CCTV-15",
@@ -291,11 +283,11 @@
         },
         {
           "name": "CCTV-15",
-          "url": "http://gslbserv.itv.cmvideo.cn/1000000005000265014/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265014&livemode=1&stbId=3"
+          "url": "https://xykt-fix.github.io/play/a02e/index.m3u8"
         },
         {
-          "name": "CCTV-5+",
-          "url": "http://192.151.150.154/live/cctv5p.m3u8"
+          "name": "CCTV-15",
+          "url": "http://gslbserv.itv.cmvideo.cn/1000000005000265014/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265014&livemode=1&stbId=3"
         },
         {
           "name": "CCTV-5+",
@@ -315,11 +307,11 @@
         },
         {
           "name": "CETV-1",
-          "url": "http://117.161.133.51:81/gitv_live/G_CETV-1/G_CETV-1.m3u8?p=GITV"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226494/1.m3u8?"
         },
         {
           "name": "CETV-1",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226494/1.m3u8?"
+          "url": "http://117.161.133.51:81/gitv_live/G_CETV-1/G_CETV-1.m3u8?p=GITV"
         },
         {
           "name": "CETV-1",
@@ -335,15 +327,15 @@
         },
         {
           "name": "黑龙江卫视",
-          "url": "http://118.81.195.79:9003/hls/31/index.m3u8"
-        },
-        {
-          "name": "黑龙江卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226965/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7UiKL56-L86ihmTWaZ6csw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "黑龙江卫视",
           "url": "rtp://239.3.1.133:8016"
+        },
+        {
+          "name": "黑龙江卫视",
+          "url": "http://118.81.195.79:9003/hls/31/index.m3u8"
         },
         {
           "name": "黑龙江卫视",
@@ -395,15 +387,15 @@
         },
         {
           "name": "浙江卫视",
-          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8"
-        },
-        {
-          "name": "浙江卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226899/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ETYfTgTra_pUx2cPrgZ_BDw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "浙江卫视",
           "url": "rtp://239.3.1.114:3004"
+        },
+        {
+          "name": "浙江卫视",
+          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8"
         },
         {
           "name": "浙江卫视",
@@ -419,15 +411,15 @@
         },
         {
           "name": "江苏卫视",
-          "url": "http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8"
-        },
-        {
-          "name": "江苏卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226897/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0BmO6uHF7WFoTed__Xr3NQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "江苏卫视",
           "url": "rtp://239.3.1.113:3003"
+        },
+        {
+          "name": "江苏卫视",
+          "url": "http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8"
         },
         {
           "name": "江苏卫视",
@@ -443,15 +435,15 @@
         },
         {
           "name": "东方卫视",
-          "url": "http://118.81.195.79:9003/hls/23/index.m3u8"
-        },
-        {
-          "name": "东方卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226898/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0uh4lyjjBCCN7TCq21vSIQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "东方卫视",
           "url": "rtp://239.3.1.119:3006"
+        },
+        {
+          "name": "东方卫视",
+          "url": "http://118.81.195.79:9003/hls/23/index.m3u8"
         },
         {
           "name": "东方卫视",
@@ -467,15 +459,15 @@
         },
         {
           "name": "北京卫视",
-          "url": "http://go.bkpcp.top/mg/bjws"
-        },
-        {
-          "name": "北京卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226900/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EcYPi33WFyhvd6SjmqUKhJg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "北京卫视",
           "url": "rtp://239.3.1.22:8001"
+        },
+        {
+          "name": "北京卫视",
+          "url": "http://go.bkpcp.top/mg/bjws"
         },
         {
           "name": "北京卫视",
@@ -487,15 +479,15 @@
         },
         {
           "name": "安徽卫视",
-          "url": "http://118.81.195.79:9003/hls/21/index.m3u8"
-        },
-        {
-          "name": "安徽卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226943/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0QmKQ_slRCwvVVUUfxPVbw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "安徽卫视",
           "url": "rtp://239.3.1.211:8064"
+        },
+        {
+          "name": "安徽卫视",
+          "url": "http://118.81.195.79:9003/hls/21/index.m3u8"
         },
         {
           "name": "安徽卫视",
@@ -511,19 +503,19 @@
         },
         {
           "name": "山东卫视",
-          "url": "http://125.210.152.18:9090/live/SDWSHD_H265.m3u8"
-        },
-        {
-          "name": "山东卫视",
-          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8"
-        },
-        {
-          "name": "山东卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226957/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjW26v5VaHGy1jQuIA-4EbA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "山东卫视",
           "url": "rtp://239.3.1.144:3005"
+        },
+        {
+          "name": "山东卫视",
+          "url": "http://125.210.152.18:9090/live/SDWSHD_H265.m3u8"
+        },
+        {
+          "name": "山东卫视",
+          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8"
         },
         {
           "name": "山东卫视",
@@ -539,15 +531,15 @@
         },
         {
           "name": "广东卫视",
-          "url": "http://118.81.195.79:9003/hls/26/index.m3u8"
-        },
-        {
-          "name": "广东卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226961/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E2MGyx659D_aaDPP0qt3NgA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "广东卫视",
           "url": "rtp://239.3.1.27:2000"
+        },
+        {
+          "name": "广东卫视",
+          "url": "http://118.81.195.79:9003/hls/26/index.m3u8"
         },
         {
           "name": "广东卫视",
@@ -583,15 +575,15 @@
         },
         {
           "name": "辽宁卫视",
-          "url": "http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8"
-        },
-        {
-          "name": "辽宁卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226966/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E6qJH8Fd-zgCGx3P-Ce86cA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "辽宁卫视",
           "url": "rtp://239.3.1.210:8056"
+        },
+        {
+          "name": "辽宁卫视",
+          "url": "http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8"
         },
         {
           "name": "辽宁卫视",
@@ -603,19 +595,15 @@
         },
         {
           "name": "河南卫视",
-          "url": "http://118.81.195.79:9003/hls/30/index.m3u8"
-        },
-        {
-          "name": "河南卫视",
           "url": "rtp://239.3.1.50:8184"
         },
         {
           "name": "河南卫视",
-          "url": "http://gslbserv.itv.cmvideo.cn/5000000011000031119/1.m3u8?channel-id=bestzb&Contentid=5000000011000031119&livemode=1&stbId=3"
+          "url": "http://118.81.195.79:9003/hls/30/index.m3u8"
         },
         {
-          "name": "湖北卫视",
-          "url": "http://118.81.195.79:9003/hls/32/index.m3u8"
+          "name": "河南卫视",
+          "url": "http://gslbserv.itv.cmvideo.cn/5000000011000031119/1.m3u8?channel-id=bestzb&Contentid=5000000011000031119&livemode=1&stbId=3"
         },
         {
           "name": "湖北卫视",
@@ -624,6 +612,10 @@
         {
           "name": "湖北卫视",
           "url": "rtp://239.3.1.138:8044"
+        },
+        {
+          "name": "湖北卫视",
+          "url": "http://118.81.195.79:9003/hls/32/index.m3u8"
         },
         {
           "name": "湖北卫视",
@@ -639,15 +631,15 @@
         },
         {
           "name": "江西卫视",
-          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8"
-        },
-        {
-          "name": "江西卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226956/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ei6ZIpVizXlewg-YfGvH8dA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "江西卫视",
           "url": "rtp://239.3.1.123:8164"
+        },
+        {
+          "name": "江西卫视",
+          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8"
         },
         {
           "name": "江西卫视",
@@ -659,10 +651,6 @@
         },
         {
           "name": "四川卫视",
-          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8"
-        },
-        {
-          "name": "四川卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226995/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EBQiz3wrGrpG0CUSRIJ-7Jg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
@@ -671,11 +659,11 @@
         },
         {
           "name": "四川卫视",
-          "url": "http://gslbserv.itv.cmvideo.cn/5000000004000006119/1.m3u8?channel-id=bestzb&Contentid=5000000004000006119&livemode=1&stbId=3"
+          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8"
         },
         {
-          "name": "重庆卫视",
-          "url": "http://118.81.195.79:9003/hls/22/index.m3u8"
+          "name": "四川卫视",
+          "url": "http://gslbserv.itv.cmvideo.cn/5000000004000006119/1.m3u8?channel-id=bestzb&Contentid=5000000004000006119&livemode=1&stbId=3"
         },
         {
           "name": "重庆卫视",
@@ -687,6 +675,10 @@
         },
         {
           "name": "重庆卫视",
+          "url": "http://118.81.195.79:9003/hls/22/index.m3u8"
+        },
+        {
+          "name": "重庆卫视",
           "url": "http://gslbserv.itv.cmvideo.cn/1000000001000001096/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001096&livemode=1&stbId=3"
         },
         {
@@ -695,15 +687,15 @@
         },
         {
           "name": "天津卫视",
-          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8"
-        },
-        {
-          "name": "天津卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226954/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eaf3wyULP1h575eM_4ByMDg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "天津卫视",
           "url": "rtp://239.3.1.141:1234"
+        },
+        {
+          "name": "天津卫视",
+          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8"
         },
         {
           "name": "天津卫视",
@@ -747,11 +739,11 @@
         },
         {
           "name": "广西卫视",
-          "url": "http://118.81.195.79:9003/hls/27/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227010/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkAhb-89sxdm9fz6-heXCuw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "广西卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227010/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkAhb-89sxdm9fz6-heXCuw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://118.81.195.79:9003/hls/27/index.m3u8"
         },
         {
           "name": "广西卫视",
@@ -759,11 +751,11 @@
         },
         {
           "name": "山西卫视",
-          "url": "http://118.81.195.79:9003/hls/19/index.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227016/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESb5Qr3NTpE2ZugIroKoyTw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "山西卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227016/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESb5Qr3NTpE2ZugIroKoyTw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://118.81.195.79:9003/hls/19/index.m3u8"
         },
         {
           "name": "山西卫视",
@@ -775,19 +767,15 @@
         },
         {
           "name": "海南卫视",
-          "url": "http://118.81.195.79:9003/hls/28/index.m3u8"
-        },
-        {
-          "name": "海南卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "海南卫视",
-          "url": "http://gslbserv.itv.cmvideo.cn/5000000004000006211/1.m3u8?channel-id=bestzb&Contentid=5000000004000006211&livemode=1&stbId=3"
+          "url": "http://118.81.195.79:9003/hls/28/index.m3u8"
         },
         {
-          "name": "贵州卫视",
-          "url": "http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU"
+          "name": "海南卫视",
+          "url": "http://gslbserv.itv.cmvideo.cn/5000000004000006211/1.m3u8?channel-id=bestzb&Contentid=5000000004000006211&livemode=1&stbId=3"
         },
         {
           "name": "贵州卫视",
@@ -799,11 +787,11 @@
         },
         {
           "name": "贵州卫视",
-          "url": "http://gslbserv.itv.cmvideo.cn/5000000004000025843/1.m3u8?channel-id=bestzb&Contentid=5000000004000025843&livemode=1&stbId=3"
+          "url": "http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU"
         },
         {
-          "name": "云南卫视",
-          "url": "https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8"
+          "name": "贵州卫视",
+          "url": "http://gslbserv.itv.cmvideo.cn/5000000004000025843/1.m3u8?channel-id=bestzb&Contentid=5000000004000025843&livemode=1&stbId=3"
         },
         {
           "name": "云南卫视",
@@ -811,11 +799,11 @@
         },
         {
           "name": "云南卫视",
-          "url": "http://gslbserv.itv.cmvideo.cn/5000000011000031120/1.m3u8?channel-id=bestzb&Contentid=5000000011000031120&livemode=1&stbId=3"
+          "url": "https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8"
         },
         {
-          "name": "甘肃卫视",
-          "url": "http://118.81.195.79:9003/hls/25/index.m3u8"
+          "name": "云南卫视",
+          "url": "http://gslbserv.itv.cmvideo.cn/5000000011000031120/1.m3u8?channel-id=bestzb&Contentid=5000000011000031120&livemode=1&stbId=3"
         },
         {
           "name": "甘肃卫视",
@@ -827,11 +815,11 @@
         },
         {
           "name": "甘肃卫视",
-          "url": "http://gslbserv.itv.cmvideo.cn/5000000011000031121/1.m3u8?channel-id=bestzb&Contentid=5000000011000031121&livemode=1&stbId=3"
+          "url": "http://118.81.195.79:9003/hls/25/index.m3u8"
         },
         {
-          "name": "吉林卫视",
-          "url": "http://118.81.195.79:9003/hls/34/index.m3u8"
+          "name": "甘肃卫视",
+          "url": "http://gslbserv.itv.cmvideo.cn/5000000011000031121/1.m3u8?channel-id=bestzb&Contentid=5000000011000031121&livemode=1&stbId=3"
         },
         {
           "name": "吉林卫视",
@@ -843,6 +831,10 @@
         },
         {
           "name": "吉林卫视",
+          "url": "http://118.81.195.79:9003/hls/34/index.m3u8"
+        },
+        {
+          "name": "吉林卫视",
           "url": "http://gslbserv.itv.cmvideo.cn/5000000011000031117/1.m3u8?channel-id=bestzb&Contentid=5000000011000031117&livemode=1&stbId=3"
         },
         {
@@ -851,15 +843,15 @@
         },
         {
           "name": "宁夏卫视",
-          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8"
-        },
-        {
-          "name": "宁夏卫视",
           "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227003/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESco1zinvdUYzleEkXYhIvA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "宁夏卫视",
           "url": "rtp://239.3.1.169:8212"
+        },
+        {
+          "name": "宁夏卫视",
+          "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8"
         },
         {
           "name": "新疆卫视",
@@ -879,11 +871,11 @@
         },
         {
           "name": "青海卫视",
-          "url": "http://live.geermurmt.com/qhws/sd/live.m3u8"
+          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227017/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EacviHy_ucMT27Ymf2iLtZA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
         },
         {
           "name": "青海卫视",
-          "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227017/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EacviHy_ucMT27Ymf2iLtZA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND"
+          "url": "http://live.geermurmt.com/qhws/sd/live.m3u8"
         },
         {
           "name": "青海卫视",
@@ -923,11 +915,11 @@
         },
         {
           "name": "金鹰卡通",
-          "url": "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8"
+          "url": "rtp://239.3.1.58:8156"
         },
         {
           "name": "金鹰卡通",
-          "url": "rtp://239.3.1.58:8156"
+          "url": "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8"
         },
         {
           "name": "金鹰卡通",
