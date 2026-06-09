@@ -205,12 +205,17 @@ def main():
     for name, data in sorted(channel_dict.items(), key=lambda x: x[1]["weight"]):
         sorted_channels.append({"name": name, "urls": data["urls"]})
 
-    if not sorted_channels:
-        sorted_channels = [{"name": "测试频道(兜底)", "urls": ["http://111.40.205.87/live/ds.m3u8"]}]
-
-    # 物理拍扁处理
-    flat_channels = []
+    grouped_channels = []
     for ch in sorted_channels:
+        if ch["urls"]:
+            grouped_channels.append({"name": ch["name"], "urls": ch["urls"]})
+
+    if not grouped_channels:
+        grouped_channels = [{"name": "测试频道(兜底)", "urls": ["http://111.40.205.87/live/ds.m3u8"]}]
+
+    # 兼容老盒子的单链接拍扁输出（给 txt / m3u 用）
+    flat_channels = []
+    for ch in grouped_channels:
         for url in ch["urls"]:
             flat_channels.append({"name": ch["name"], "url": url})
 
@@ -219,14 +224,14 @@ def main():
     legacy_data = {
         "spider": "",
         "sites": [],
-        "lives": [{"group": "电视直播", "channels": flat_channels}],
+        "lives": [{"group": "电视直播", "channels": grouped_channels}],
     }
     write_json(os.path.join(base_dir, "sources.json"), legacy_data)
 
     tvbox_data = {
         "spider": "",
         "sites": [VOD_PLACEHOLDER_SITE],
-        "lives": [{"group": "电视直播", "channels": flat_channels}],
+        "lives": [{"group": "电视直播", "channels": grouped_channels}],
     }
     write_json(os.path.join(base_dir, "tvbox.json"), tvbox_data)
 
