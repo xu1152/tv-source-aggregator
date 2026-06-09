@@ -1,0 +1,17 @@
+{
+ "spider": "",
+ "sites": [
+ {
+ "key": "dummy",
+ "name": "占位数据源",
+ "type": 3,
+ "api": "",
+ "searchable": 0,
+ "quickSearch": 0,
+ "filterable": 0
+ }
+ ],
+ "parses": [],
+ "flags": [],
+ "rules": []
+ }
