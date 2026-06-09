@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 group-title="电视直播",CCTV-1
+http://101.66.195.125:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="电视直播",CCTV-2
+http://101.66.195.125:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0

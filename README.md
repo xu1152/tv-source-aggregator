@@ -1,48 +1,79 @@
-# 📺 TV 直播源自动聚合
+# 📺 家用电视直播单列表
 
-每天自动从 7 个公开源拉取、合并、去重 → 输出 TVBox 兼容 JSON。
+这个项目现在只做一件事：
 
-## 📊 当前数据
+> 给家里老人提供一个**稳定、单目录、纯直播**的电视列表。
 
-| 分组 | 频道数 |
-|------|--------|
-| 央视频道 | 42 |
-| 卫视频道 | 71 |
-| 地方频道 | 104 |
-| 数字频道 | 180 |
-| 体育频道 | 64 |
-| 少儿频道 | 14 |
-| 国际频道 | 9 |
-| **合计** | **484** |
+不再混入点播、复杂 TVBox 外壳、左右切换分组。
 
-## 🚀 使用方法
+## 当前设计
+- 单目录：`电视直播`
+- 优先频道：
+  - CCTV 1–15（含 CCTV-5+）
+  - 主流卫视
+  - 黑龙江本地台
+  - 少量少儿 / 体育 / 纪录
+- 协议优先：`http/https m3u8`
+- 暂时过滤：`rtp://`、IPv6-only、明显异常源
 
-### 方法一：直接用我的（推荐）
+## 生成文件
+运行脚本后会输出：
 
-等我把仓库推到 GitHub，你直接在 TVBox 里填：
+- `box-live.json`：盒子专用直播 JSON（频道对象使用 `urls` 数组）
+- `live.txt`：纯文本直播源
+- `live.m3u`：m3u 直播源
+- `channels-debug.json`：调试用频道清单
+- `datasource.json`：数据源地址占位文件
+- `live-test.txt` / `live-test.m3u`：最小验证文件
+
+同时保留旧文件名，方便历史地址继续测试：
+
+- `tvbox.json`
+- `sources.json`
+- `sources.txt`
+- `sources.m3u`
+
+## 推荐测试顺序
+### 1. 数据源地址
+```text
+https://cdn.jsdelivr.net/gh/你的用户名/tv-source-aggregator@master/datasource.json?v=999
 ```
-https://raw.githubusercontent.com/你的用户名/tv-source-aggregator/main/sources.json
+
+### 2. 直播源地址
+先试最小验证：
+
+```text
+https://cdn.jsdelivr.net/gh/你的用户名/tv-source-aggregator@master/live-test.txt?v=999
 ```
 
-### 方法二：自己 Fork
+如果盒子认 txt，再试正式版本：
 
-1. Fork 本仓库到你的 GitHub
-2. 启用 Actions（Settings → Actions → Allow all）
-3. TVBox 设置 → 配置地址 → 填入上面那个 URL
+```text
+https://cdn.jsdelivr.net/gh/你的用户名/tv-source-aggregator@master/live.txt?v=999
+```
 
-## ⏰ 自动更新
+如果盒子更认 m3u，则试：
 
-GitHub Actions 每天 **6:00 和 18:00**（北京时间）自动执行聚合脚本。
+```text
+https://cdn.jsdelivr.net/gh/你的用户名/tv-source-aggregator@master/live.m3u?v=999
+```
 
-也可以手动触发：Actions → "Update TV Sources" → Run workflow
+如果盒子直播入口认 JSON，则试：
 
-## 📡 数据来源
+```text
+https://cdn.jsdelivr.net/gh/你的用户名/tv-source-aggregator@master/box-live.json?v=999
+```
 
-| 源 | 频道数 |
-|---|--------|
-| fanmingming/live (ipv6) | ~82 |
-| fanmingming/live (itv) | ~189 |
-| ssili126/tv | ~91 |
-| YanG-1989/m3u Gather | ~125 |
-| YueChan/Live IPTV | ~89 |
-| iptv-org (中国) | ~170 |
+### 3. EPG 地址
+```text
+https://epg.112114.xyz/e.xml
+```
+
+## 自动更新
+GitHub Actions 每天北京时间 **6:00 和 18:00** 自动重新生成直播文件。
+
+也可以手动触发：
+
+- Actions
+- `Update TV Sources`
+- `Run workflow`
