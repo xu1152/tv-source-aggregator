@@ -5,7 +5,7 @@ TV 直播源聚合 V10 — 满血冗余修正版
 修正内容：
 1. 召回 V6 的 7 大基础源矩阵，放弃 404 死链，恢复 290+ 链路冗余防断流。
 2. 恢复 V6 的别名长词优先匹配架构，根除精确匹配导致的漏台（CCTV-5+、卡通台等）。
-3. 继承 V9 的 EPG、Logo、VOD 与 100% 物理拍扁特性。
+3. 保留单分组直播，但恢复老 TVBox 更稳的占位站点与 sources.json 输出。
 """
 
 import json
@@ -36,11 +36,13 @@ HLJ_LOCAL = [
     {"name": "哈尔滨综合", "url": "http://111.40.205.87/live/hrb1.m3u8"}
 ]
 
-VOD_SITES = [
-    {"key": "kuaikan", "name": "极速影院", "type": 1, "api": "https://kuaikan-api.com/api.php/provide/vod", "searchable": 1},
-    {"key": "lzm3u8",  "name": "量子秒播", "type": 1, "api": "https://cj.lzkj1.com/api.php/provide/vod", "searchable": 1},
-    {"key": "ffm3u8",  "name": "非凡蓝光", "type": 1, "api": "https://cj.ffzyapi.com/api.php/provide/vod", "searchable": 1}
-]
+VOD_PLACEHOLDER_SITE = {
+    "key": "dummy",
+    "name": "占位防崩溃",
+    "type": 3,
+    "api": "",
+    "searchable": 0,
+}
 
 # ---------------------------------------------------------
 # 2. 长辈白名单与别名匹配系统 (彻底恢复 61 大台)
@@ -171,6 +173,10 @@ def parse_content(text):
 # ---------------------------------------------------------
 # 4. 矩阵生成与物理拍扁
 # ---------------------------------------------------------
+def write_json(path, data):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
 def main():
     print("=" * 50)
     print("开始执行 V10 冗余修正 & 物理拍扁版...")
@@ -209,16 +215,20 @@ def main():
             flat_channels.append({"name": ch["name"], "url": url})
 
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    
+
+    legacy_data = {
+        "spider": "",
+        "sites": [],
+        "lives": [{"group": "电视直播", "channels": flat_channels}],
+    }
+    write_json(os.path.join(base_dir, "sources.json"), legacy_data)
+
     tvbox_data = {
         "spider": "",
-        "logo": "https://epg.112114.xyz/logo/{name}.png",
-        "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-        "sites": VOD_SITES,
-        "lives": [{"group": "电视直播", "channels": flat_channels}]
+        "sites": [VOD_PLACEHOLDER_SITE],
+        "lives": [{"group": "电视直播", "channels": flat_channels}],
     }
-    with open(os.path.join(base_dir, "tvbox.json"), "w", encoding="utf-8") as f:
-        json.dump(tvbox_data, f, ensure_ascii=False, indent=2)
+    write_json(os.path.join(base_dir, "tvbox.json"), tvbox_data)
 
     with open(os.path.join(base_dir, "sources.txt"), "w", encoding="utf-8") as f:
         f.write("电视直播,#genre#\n")
