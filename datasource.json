@@ -2,8 +2,35 @@
   "spider": "",
   "sites": [
     {
+      "key": "tvbox_cdn",
+      "name": "TV直播源 (jsDelivr CDN)",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/xu1152/tv-source-aggregator@master/tvbox.json",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "sources_cdn",
+      "name": "TV直播源 (jsDelivr 备线)",
+      "type": 3,
+      "api": "https://gcore.jsdelivr.net/gh/xu1152/tv-source-aggregator@master/sources.json",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "box_live_cdn",
+      "name": "TV直播源 (API 格式)",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/xu1152/tv-source-aggregator@master/box-live.json",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
       "key": "dummy",
-      "name": "占位数据源",
+      "name": "占位防崩溃",
       "type": 3,
       "api": "",
       "searchable": 0,
