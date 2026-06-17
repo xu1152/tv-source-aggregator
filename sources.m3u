@@ -6,11 +6,11 @@ http://gslbserv.itv.cmvideo.cn/1000000005000265001/1.m3u8?channel-id=ystenlive&C
 #EXTINF:-1 group-title="电视直播",CCTV-2
 http://gslbserv.itv.cmvideo.cn/1000000001000023315/1.m3u8?channel-id=ystenlive&Contentid=1000000001000023315&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",CCTV-3
+http://36.40.236.27:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",CCTV-3
 http://gslbserv.itv.cmvideo.cn/6000000001000022313/1.m3u8?channel-id=wasusyt&Contentid=6000000001000022313&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",CCTV-3
 http://gslbserv.itv.cmvideo.cn/1000000005000265003/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265003&livemode=1&stbId=3
-#EXTINF:-1 group-title="电视直播",CCTV-3
-http://36.40.236.27:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",CCTV-4
 http://gslbserv.itv.cmvideo.cn/1000000005000265004/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265004&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",CCTV-4
@@ -174,9 +174,9 @@ http://gslbserv.itv.cmvideo.cn/5000000011000031118/1.m3u8?channel-id=bestzb&Cont
 #EXTINF:-1 group-title="电视直播",广西卫视
 http://118.81.195.79:9003/hls/27/index.m3u8
 #EXTINF:-1 group-title="电视直播",山西卫视
-http://118.81.195.79:9003/hls/19/index.m3u8
-#EXTINF:-1 group-title="电视直播",山西卫视
 http://59.32.97.20:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",山西卫视
+http://118.81.195.79:9003/hls/19/index.m3u8
 #EXTINF:-1 group-title="电视直播",海南卫视
 http://gslbserv.itv.cmvideo.cn/5000000004000006211/1.m3u8?channel-id=bestzb&Contentid=5000000004000006211&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",海南卫视
