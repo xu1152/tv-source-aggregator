@@ -29,8 +29,8 @@
         {
           "name": "CCTV-4",
           "urls": [
-            "http://198.204.240.250:82/live/cctv4k.m3u8",
-            "http://gslbserv.itv.cmvideo.cn/1000000005000265004/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265004&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/1000000005000265004/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265004&livemode=1&stbId=3",
+            "http://198.204.240.250:82/live/cctv4k.m3u8"
           ]
         },
         {
@@ -64,9 +64,9 @@
         {
           "name": "CCTV-8",
           "urls": [
-            "http://192.151.150.154/live/cctv8k.m3u8",
             "http://gslbserv.itv.cmvideo.cn/6000000001000001070/1.m3u8?channel-id=wasusyt&Contentid=6000000001000001070&livemode=1&stbId=3",
-            "http://gslbserv.itv.cmvideo.cn/1000000005000265008/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265008&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/1000000005000265008/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265008&livemode=1&stbId=3",
+            "http://192.151.150.154/live/cctv8k.m3u8"
           ]
         },
         {
@@ -112,9 +112,9 @@
         {
           "name": "黑龙江卫视",
           "urls": [
-            "http://118.81.195.79:9003/hls/31/index.m3u8",
             "http://gslbserv.itv.cmvideo.cn/1000000001000001925/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001925&livemode=1&stbId=3",
-            "http://gslbserv.itv.cmvideo.cn/6000000001000016510/1.m3u8?channel-id=wasusyt&Contentid=6000000001000016510&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/6000000001000016510/1.m3u8?channel-id=wasusyt&Contentid=6000000001000016510&livemode=1&stbId=3",
+            "http://gslbserv.itv.cmvideo.cn/1000000005000265029/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265029&livemode=1&stbId=3"
           ]
         },
         {
@@ -152,33 +152,33 @@
         {
           "name": "浙江卫视",
           "urls": [
-            "http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8",
             "http://gslbserv.itv.cmvideo.cn/5000000004000007275/1.m3u8?channel-id=bestzb&Contentid=5000000004000007275&livemode=1&stbId=3",
-            "http://gslbserv.itv.cmvideo.cn/1000000001000014260/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014260&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/1000000001000014260/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014260&livemode=1&stbId=3",
+            "http://gslbserv.itv.cmvideo.cn/1000000005000265031/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265031&livemode=1&stbId=3"
           ]
         },
         {
           "name": "江苏卫视",
           "urls": [
-            "http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8",
             "http://gslbserv.itv.cmvideo.cn/6000000001000014861/1.m3u8?channel-id=wasusyt&Contentid=6000000001000014861&livemode=1&stbId=3",
-            "http://gslbserv.itv.cmvideo.cn/1000000001000001828/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001828&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/1000000001000001828/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001828&livemode=1&stbId=3",
+            "http://gslbserv.itv.cmvideo.cn/1000000005000265030/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265030&livemode=1&stbId=3"
           ]
         },
         {
           "name": "东方卫视",
           "urls": [
-            "https://op-group1-swiftservesd-1.dens.tv/s/s29/index.m3u8",
-            "http://118.81.195.79:9003/hls/23/index.m3u8",
-            "http://gslbserv.itv.cmvideo.cn/6000000001000003639/1.m3u8?channel-id=wasusyt&Contentid=6000000001000003639&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/6000000001000003639/1.m3u8?channel-id=wasusyt&Contentid=6000000001000003639&livemode=1&stbId=3",
+            "http://gslbserv.itv.cmvideo.cn/5000000004000014098/1.m3u8?channel-id=bestzb&Contentid=5000000004000014098&livemode=1&stbId=3",
+            "http://gslbserv.itv.cmvideo.cn/1000000005000265018/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265018&livemode=1&stbId=3"
           ]
         },
         {
           "name": "北京卫视",
           "urls": [
-            "http://go.bkpcp.top/mg/bjws",
             "http://gslbserv.itv.cmvideo.cn/6000000001000020451/1.m3u8?channel-id=wasusyt&Contentid=6000000001000020451&livemode=1&stbId=3",
-            "http://gslbserv.itv.cmvideo.cn/1000000005000265027/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265027&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/1000000005000265027/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265027&livemode=1&stbId=3",
+            "http://go.bkpcp.top/mg/bjws"
           ]
         },
         {
@@ -192,17 +192,17 @@
         {
           "name": "山东卫视",
           "urls": [
-            "http://125.210.152.18:9090/live/SDWSHD_H265.m3u8",
-            "http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8",
-            "http://gslbserv.itv.cmvideo.cn/1000000001000016568/1.m3u8?channel-id=ystenlive&Contentid=1000000001000016568&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/1000000001000016568/1.m3u8?channel-id=ystenlive&Contentid=1000000001000016568&livemode=1&stbId=3",
+            "http://gslbserv.itv.cmvideo.cn/6000000001000004134/1.m3u8?channel-id=wasusyt&Contentid=6000000001000004134&livemode=1&stbId=3",
+            "http://gslbserv.itv.cmvideo.cn/1000000005000265019/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265019&livemode=1&stbId=3"
           ]
         },
         {
           "name": "广东卫视",
           "urls": [
-            "http://118.81.195.79:9003/hls/26/index.m3u8",
             "http://gslbserv.itv.cmvideo.cn/1000000001000014176/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014176&livemode=1&stbId=3",
-            "http://gslbserv.itv.cmvideo.cn/6000000001000031076/1.m3u8?channel-id=wasusyt&Contentid=6000000001000031076&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/6000000001000031076/1.m3u8?channel-id=wasusyt&Contentid=6000000001000031076&livemode=1&stbId=3",
+            "http://gslbserv.itv.cmvideo.cn/1000000005000265034/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265034&livemode=1&stbId=3"
           ]
         },
         {
@@ -216,55 +216,55 @@
         {
           "name": "辽宁卫视",
           "urls": [
-            "http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8",
             "http://gslbserv.itv.cmvideo.cn/5000000004000011671/1.m3u8?channel-id=bestzb&Contentid=5000000004000011671&livemode=1&stbId=3",
-            "http://gslbserv.itv.cmvideo.cn/1000000005000265022/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265022&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/1000000005000265022/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265022&livemode=1&stbId=3",
+            "http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8"
           ]
         },
         {
           "name": "河南卫视",
           "urls": [
-            "http://118.81.195.79:9003/hls/30/index.m3u8",
-            "http://gslbserv.itv.cmvideo.cn/5000000011000031119/1.m3u8?channel-id=bestzb&Contentid=5000000011000031119&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/5000000011000031119/1.m3u8?channel-id=bestzb&Contentid=5000000011000031119&livemode=1&stbId=3",
+            "http://118.81.195.79:9003/hls/30/index.m3u8"
           ]
         },
         {
           "name": "湖北卫视",
           "urls": [
-            "http://118.81.195.79:9003/hls/32/index.m3u8",
             "http://gslbserv.itv.cmvideo.cn/1000000001000024621/1.m3u8?channel-id=ystenlive&Contentid=1000000001000024621&livemode=1&stbId=3",
-            "http://gslbserv.itv.cmvideo.cn/6000000001000015436/1.m3u8?channel-id=wasusyt&Contentid=6000000001000015436&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/6000000001000015436/1.m3u8?channel-id=wasusyt&Contentid=6000000001000015436&livemode=1&stbId=3",
+            "http://gslbserv.itv.cmvideo.cn/1000000005000265023/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265023&livemode=1&stbId=3"
           ]
         },
         {
           "name": "江西卫视",
           "urls": [
-            "http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8",
             "http://gslbserv.itv.cmvideo.cn/1000000006000268001/1.m3u8?channel-id=ystenlive&Contentid=1000000006000268001&livemode=1&stbId=3",
-            "http://gslbserv.itv.cmvideo.cn/1000000005000265032/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265032&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/1000000005000265032/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265032&livemode=1&stbId=3",
+            "http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8"
           ]
         },
         {
           "name": "四川卫视",
           "urls": [
-            "http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8",
-            "http://gslbserv.itv.cmvideo.cn/5000000004000006119/1.m3u8?channel-id=bestzb&Contentid=5000000004000006119&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/5000000004000006119/1.m3u8?channel-id=bestzb&Contentid=5000000004000006119&livemode=1&stbId=3",
+            "http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8"
           ]
         },
         {
           "name": "重庆卫视",
           "urls": [
-            "http://118.81.195.79:9003/hls/22/index.m3u8",
             "http://gslbserv.itv.cmvideo.cn/1000000001000001096/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001096&livemode=1&stbId=3",
-            "http://gslbserv.itv.cmvideo.cn/1000000005000265017/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265017&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/1000000005000265017/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265017&livemode=1&stbId=3",
+            "http://118.81.195.79:9003/hls/22/index.m3u8"
           ]
         },
         {
           "name": "天津卫视",
           "urls": [
-            "http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8",
             "http://gslbserv.itv.cmvideo.cn/5000000004000006827/1.m3u8?channel-id=bestzb&Contentid=5000000004000006827&livemode=1&stbId=3",
-            "http://gslbserv.itv.cmvideo.cn/6000000001000009186/1.m3u8?channel-id=wasusyt&Contentid=6000000001000009186&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/6000000001000009186/1.m3u8?channel-id=wasusyt&Contentid=6000000001000009186&livemode=1&stbId=3",
+            "http://gslbserv.itv.cmvideo.cn/1000000005000265026/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265026&livemode=1&stbId=3"
           ]
         },
         {
@@ -283,8 +283,8 @@
         {
           "name": "广西卫视",
           "urls": [
-            "http://118.81.195.79:9003/hls/27/index.m3u8",
-            "http://gslbserv.itv.cmvideo.cn/5000000011000031118/1.m3u8?channel-id=bestzb&Contentid=5000000011000031118&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/5000000011000031118/1.m3u8?channel-id=bestzb&Contentid=5000000011000031118&livemode=1&stbId=3",
+            "http://118.81.195.79:9003/hls/27/index.m3u8"
           ]
         },
         {
@@ -297,36 +297,36 @@
         {
           "name": "海南卫视",
           "urls": [
-            "http://118.81.195.79:9003/hls/28/index.m3u8",
-            "http://gslbserv.itv.cmvideo.cn/5000000004000006211/1.m3u8?channel-id=bestzb&Contentid=5000000004000006211&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/5000000004000006211/1.m3u8?channel-id=bestzb&Contentid=5000000004000006211&livemode=1&stbId=3",
+            "http://118.81.195.79:9003/hls/28/index.m3u8"
           ]
         },
         {
           "name": "贵州卫视",
           "urls": [
-            "http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU",
-            "http://gslbserv.itv.cmvideo.cn/5000000004000025843/1.m3u8?channel-id=bestzb&Contentid=5000000004000025843&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/5000000004000025843/1.m3u8?channel-id=bestzb&Contentid=5000000004000025843&livemode=1&stbId=3",
+            "http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU"
           ]
         },
         {
           "name": "云南卫视",
           "urls": [
-            "https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8",
-            "http://gslbserv.itv.cmvideo.cn/5000000011000031120/1.m3u8?channel-id=bestzb&Contentid=5000000011000031120&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/5000000011000031120/1.m3u8?channel-id=bestzb&Contentid=5000000011000031120&livemode=1&stbId=3",
+            "https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8"
           ]
         },
         {
           "name": "甘肃卫视",
           "urls": [
-            "http://118.81.195.79:9003/hls/25/index.m3u8",
-            "http://gslbserv.itv.cmvideo.cn/5000000011000031121/1.m3u8?channel-id=bestzb&Contentid=5000000011000031121&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/5000000011000031121/1.m3u8?channel-id=bestzb&Contentid=5000000011000031121&livemode=1&stbId=3",
+            "http://118.81.195.79:9003/hls/25/index.m3u8"
           ]
         },
         {
           "name": "吉林卫视",
           "urls": [
-            "http://118.81.195.79:9003/hls/34/index.m3u8",
-            "http://gslbserv.itv.cmvideo.cn/5000000011000031117/1.m3u8?channel-id=bestzb&Contentid=5000000011000031117&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/5000000011000031117/1.m3u8?channel-id=bestzb&Contentid=5000000011000031117&livemode=1&stbId=3",
+            "http://118.81.195.79:9003/hls/34/index.m3u8"
           ]
         },
         {
@@ -338,8 +338,8 @@
         {
           "name": "青海卫视",
           "urls": [
-            "http://live.geermurmt.com/qhws/sd/live.m3u8",
-            "http://gslbserv.itv.cmvideo.cn/1000000002000013359/1.m3u8?channel-id=ystenlive&Contentid=1000000002000013359&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/1000000002000013359/1.m3u8?channel-id=ystenlive&Contentid=1000000002000013359&livemode=1&stbId=3",
+            "http://live.geermurmt.com/qhws/sd/live.m3u8"
           ]
         },
         {
@@ -357,8 +357,8 @@
         {
           "name": "金鹰卡通",
           "urls": [
-            "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8",
-            "http://gslbserv.itv.cmvideo.cn/5000000011000031203/1.m3u8?channel-id=bestzb&Contentid=5000000011000031203&livemode=1&stbId=3"
+            "http://gslbserv.itv.cmvideo.cn/5000000011000031203/1.m3u8?channel-id=bestzb&Contentid=5000000011000031203&livemode=1&stbId=3",
+            "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8"
           ]
         },
         {
