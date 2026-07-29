@@ -298,8 +298,8 @@
         {
           "name": "山西卫视",
           "urls": [
-            "http://59.32.97.20:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0",
-            "http://118.81.195.79:9003/hls/19/index.m3u8"
+            "http://118.81.195.79:9003/hls/19/index.m3u8",
+            "http://59.32.97.20:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0"
           ]
         },
         {

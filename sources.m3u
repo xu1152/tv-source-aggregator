@@ -174,9 +174,9 @@ http://118.81.195.79:9003/hls/27/index.m3u8
 #EXTINF:-1 group-title="电视直播",广西卫视
 http://gslbserv.itv.cmvideo.cn/5000000011000031118/1.m3u8?channel-id=bestzb&Contentid=5000000011000031118&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",山西卫视
-http://59.32.97.20:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="电视直播",山西卫视
 http://118.81.195.79:9003/hls/19/index.m3u8
+#EXTINF:-1 group-title="电视直播",山西卫视
+http://59.32.97.20:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",海南卫视
 http://118.81.195.79:9003/hls/28/index.m3u8
 #EXTINF:-1 group-title="电视直播",海南卫视
