@@ -43,6 +43,7 @@
         {
           "name": "CCTV-5+",
           "urls": [
+            "https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8",
             "http://gslbserv.itv.cmvideo.cn/6000000001000015875/1.m3u8?channel-id=wasusyt&Contentid=6000000001000015875&livemode=1&stbId=3",
             "http://gslbserv.itv.cmvideo.cn/1000000005000265016/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265016&livemode=1&stbId=3"
           ]
@@ -50,6 +51,7 @@
         {
           "name": "CCTV-6",
           "urls": [
+            "https://live.eac-news.com/CCTV/streams/cctv6.m3u8",
             "http://gslbserv.itv.cmvideo.cn/1000000001000001737/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001737&livemode=1&stbId=3",
             "http://gslbserv.itv.cmvideo.cn/1000000005000265006/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265006&livemode=1&stbId=3"
           ]
