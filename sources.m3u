@@ -10,9 +10,9 @@ http://125.71.73.4:9901/tsfile/live/faacts/0002_1.m3u8?key=txiptv&playlive=1&aut
 #EXTINF:-1 group-title="电视直播",CCTV-2
 http://gslbserv.itv.cmvideo.cn/1000000001000023315/1.m3u8?channel-id=ystenlive&Contentid=1000000001000023315&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",CCTV-3
-http://36.40.236.27:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="电视直播",CCTV-3
 http://125.71.73.4:9901/tsfile/live/faacts/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="电视直播",CCTV-3
+http://36.40.236.27:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",CCTV-3
 http://gslbserv.itv.cmvideo.cn/6000000001000022313/1.m3u8?channel-id=wasusyt&Contentid=6000000001000022313&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",CCTV-4
@@ -212,9 +212,9 @@ http://118.81.195.79:9003/hls/27/index.m3u8
 #EXTINF:-1 group-title="电视直播",广西卫视
 http://gslbserv.itv.cmvideo.cn/5000000011000031118/1.m3u8?channel-id=bestzb&Contentid=5000000011000031118&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",山西卫视
-http://59.32.97.20:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="电视直播",山西卫视
 http://125.71.73.4:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="电视直播",山西卫视
+http://59.32.97.20:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="电视直播",山西卫视
 http://118.81.195.79:9003/hls/19/index.m3u8
 #EXTINF:-1 group-title="电视直播",海南卫视
@@ -233,8 +233,6 @@ http://125.71.73.4:9901/tsfile/live/faacts/0119_2.m3u8?key=txiptv&playlive=0&aut
 https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8
 #EXTINF:-1 group-title="电视直播",云南卫视
 http://gslbserv.itv.cmvideo.cn/5000000011000031120/1.m3u8?channel-id=bestzb&Contentid=5000000011000031120&livemode=1&stbId=3
-#EXTINF:-1 group-title="电视直播",甘肃卫视
-http://118.81.195.79:9003/hls/25/index.m3u8
 #EXTINF:-1 group-title="电视直播",甘肃卫视
 http://gslbserv.itv.cmvideo.cn/5000000011000031121/1.m3u8?channel-id=bestzb&Contentid=5000000011000031121&livemode=1&stbId=3
 #EXTINF:-1 group-title="电视直播",吉林卫视
