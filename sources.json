@@ -23,8 +23,8 @@
         {
           "name": "CCTV-3",
           "urls": [
-            "http://36.40.236.27:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0",
             "http://101.66.198.55:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0",
+            "http://36.40.236.27:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0",
             "http://gslbserv.itv.cmvideo.cn/6000000001000022313/1.m3u8?channel-id=wasusyt&Contentid=6000000001000022313&livemode=1&stbId=3"
           ]
         },
@@ -311,8 +311,8 @@
         {
           "name": "山西卫视",
           "urls": [
-            "http://59.32.97.20:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0",
-            "http://101.66.198.55:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0"
+            "http://101.66.198.55:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0",
+            "http://59.32.97.20:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0"
           ]
         },
         {
